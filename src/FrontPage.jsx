@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './FrontPage.css'
+import MenuButton from './components/MenuButton'
 
 function FrontPage() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>FUTURE STUFF</h1>
+      <nav>
+        <MenuButton />
+      </nav>
+      <h1>Sami Manner</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
         <p>
           Lorem ipsum etc.
         </p>
