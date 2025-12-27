@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  background-color: #181A1E;
+  color: white;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.footerdiv {
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-header, .footer-legal, .footer-text {
+  max-width: 80ch;
+}
+
+.footer-text { font-size: 16px; }
+.footer-header { font-size: 16px; }
+.footer-legal { font-size: 14px; }
+
+.footertext { display: flex; gap: 1rem; flex-wrap: wrap; }

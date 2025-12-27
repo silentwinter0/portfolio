@@ -1,12 +1,15 @@
 import './FrontPage.css'
+import Footer from './components/Footer.jsx'
+import Header from './components/Header.jsx'
 import MenuButton from './components/MenuButton'
+import ProjectContainer from './components/ProjectContainer'
 
 function FrontPage() {
 
   return (
     <div className="background">
       <nav>
-        <MenuButton />
+        <Header/>
       </nav>
       <div className="card">
         <h1>Sami Manner</h1>
@@ -22,32 +25,7 @@ function FrontPage() {
         <p>
           Lorem ipsum etc.
         </p>
-        <div className="top-projects" id="more-top-projects">
-          <div className="topprojectcontainer">
-              <div>
-                  <img src="./images/pic2.jpg" alt="An illustrative image showcasing the general style of the project."/>
-              </div>
-              <div className="projecttext">
-                  <h2>Project Title</h2>
-                  <h3>Hey I fixed it!</h3>
-                  <p>C++, my bare hands</p>
-                  <p>December 2019</p>
-                  <a href="./projects/project1.html">Read more</a>
-              </div>
-          </div>
-          <div className="topprojectcontainer">
-              <div>
-                  <img src="./images/pic1.jpg" alt="An illustrative image showcasing the general style of the project."/>
-              </div>
-              <div className="projecttext">
-                  <h2>Project Title</h2>
-                  <h3>The Internet! It's back!</h3>
-                  <p>COBOL (unfortunately)</p>
-                  <p>January 2025</p>
-                  <a href="./projects/project1.html">Read more</a>
-              </div>
-          </div>
-      </div>
+        <ProjectContainer/>
       </div>
       <div className="card">
         <h1>Other work</h1>
@@ -63,6 +41,7 @@ function FrontPage() {
         <p className="bigtext text-2xl font-medium">programmer/designer</p>
         <p className="mt-2">something lorem ipsum.</p>
       </section>
+      <Footer/>
     </div>
   )
 }
