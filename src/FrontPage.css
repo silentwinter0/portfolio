@@ -1,40 +1,118 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap');
+
+:root {
+  --accent-1: #0D00FF;
+  --accent-2: #070080;
+  --bg-color: #020202;
+  --panel-bg: #181A1E;
+  --text-color: #ffffff;
+  --width: 100%;
+  --height: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Oxanium', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.background {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-image: linear-gradient(to bottom left, var(--accent-1) 30%, var(--accent-2) 50%, var(--bg-color) 70%);
+  background-size: cover;
+}
+
+/* Project containers (imported from old-main.css) */
+.projectpile {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 300;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.top-projects, .other-projects {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+  font-weight: 300;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.topprojectcontainer, .projectcontainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  border: 2px solid white;
+  margin: 0;
+  background-color: var(--panel-bg);
+  width: 100%;
+  height: auto;
+}
+
+.topprojectcontainer {
+  background-image: linear-gradient(to bottom left, var(--accent-1), var(--accent-2));
+}
+
+.topprojectcontainer img, .projectcontainer img {
+  width: 100%;
+  height: auto;
+  max-height: 50vh;
+  min-height: 30vh;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.projecttext {
+  margin: 1rem;
+  margin-top: 0.8rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projecttext a {
+  font-size: 32px;
+  align-self: flex-end;
+}
+
+.projecttext h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projecttext h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .card {
   padding: 2em;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .read-the-docs {
