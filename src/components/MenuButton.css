@@ -1,8 +1,10 @@
 .menuButton {
   flex: 1;
   text-align: center;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
   padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .topofnav {
