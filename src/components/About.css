@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 64px;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.selfportrait {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid white;
+  margin: 0 auto;
+  background-color: #181A1E;
+  width: 60%;
+  height: auto;
+  aspect-ratio: 1;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+
+.selfportrait img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.bigtext {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 705px) {
+  .selfportrait {
+    width: 30%;
+    height: 30%;
+  }
+  .about h1 {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .about h1 {
+    font-size: 32px;
+  }
+}
