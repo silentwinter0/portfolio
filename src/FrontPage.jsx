@@ -11,7 +11,7 @@ function FrontPage() {
       <Header />
       <div className="card">
         <h1>Sami Manner</h1>
-        <p>
+        <p className='bigtext'>
           I'm a undergraduate engineering student, <br/>
           studying Information Networks at Aalto University.
           <br />Lorem ipsum please write <br />

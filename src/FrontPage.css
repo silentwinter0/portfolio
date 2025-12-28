@@ -22,9 +22,6 @@ html, body, #root {
   min-width: 100vw;
 }
 
-html {
-}
-
 .background {
   background-color: var(--bg-color);
   width: 100%;
@@ -119,4 +116,10 @@ html {
 
 .read-the-docs {
   color: #888;
+}
+
+.bigtext {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0.5rem 0;
 }
