@@ -7,7 +7,7 @@ export default function ProjectContainer() {
       <div className="projectpile">
         <div className="top-projects">
           <ProjectCard
-            imageSrc="./images/pic1.jpg"
+            imageSrc=""
             title="Project Title"
             subtitle="I broke the internet..."
             tech="C++, my bare hands"
@@ -15,7 +15,7 @@ export default function ProjectContainer() {
             link="./"
           />
           <ProjectCard
-            imageSrc="./images/pic2.jpg"
+            imageSrc=""
             title="Project Title"
             subtitle="Lorem ipsum, etc."
             tech="COBOL (unfortunately)"

@@ -4,7 +4,7 @@ export default function ProjectCard({ imageSrc, title, subtitle, tech, date, lin
   return (
     <div className="topprojectcontainer">
       <div>
-        <img src={imageSrc} alt={`${title} image`} />
+        {/*<img src={imageSrc} alt={`${title} image`} />*/}
       </div>
       <div className="projecttext">
         <h2>{title}</h2>
