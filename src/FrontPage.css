@@ -15,7 +15,6 @@ html, body, #root {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Oxanium', sans-serif;
   font-size: 16px;
@@ -23,13 +22,16 @@ html, body, #root {
   min-width: 100vw;
 }
 
+html {
+}
+
 .background {
+  background-color: var(--bg-color);
   width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  background-image: linear-gradient(to bottom left, var(--accent-1) 30%, var(--accent-2) 50%, var(--bg-color) 70%);
   background-size: cover;
 }
 
