@@ -1,7 +1,7 @@
-import './ProjectContainer.css'
+import './Projects.css'
 import ProjectCard from './ProjectCard'
 
-export default function ProjectContainer() {
+export default function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="projectpile">
