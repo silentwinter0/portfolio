@@ -22,6 +22,38 @@ export default function ProjectContainer() {
             date="January 2025"
             link="./"
           />
+          <ProjectCard
+            imageSrc=""
+            title="Project Title"
+            subtitle="Testing wider layout"
+            tech="React, CSS"
+            date="March 2024"
+            link="./"
+          />
+          <ProjectCard
+            imageSrc=""
+            title="Project Title"
+            subtitle="Another test card"
+            tech="HTML, CSS"
+            date="April 2024"
+            link="./"
+          />
+          <ProjectCard
+            imageSrc=""
+            title="Project Title"
+            subtitle="Testing wider layout"
+            tech="React, CSS"
+            date="March 2024"
+            link="./"
+          />
+          <ProjectCard
+            imageSrc=""
+            title="Project Title"
+            subtitle="Another test card"
+            tech="HTML, CSS"
+            date="April 2024"
+            link="./"
+          />
         </div>
       </div>
     </section>
