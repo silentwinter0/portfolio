@@ -33,7 +33,7 @@
   padding: 0 12px;
 }
 
-.topprojectcontainer, .projectcontainer {
+.projectcontainer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -46,43 +46,13 @@
   height: 100%;
 }
 
-.topprojectcontainer {
-  background-image: linear-gradient(to bottom left, var(--accent-1, #0D00FF), var(--accent-2, #070080));
-}
-
-.topprojectcontainer img, .projectcontainer img {
+.projectcontainer img {
   width: 100%;
   height: auto;
   max-height: 50vh;
   min-height: 30vh;
   object-fit: cover;
   margin-bottom: 0;
-}
-
-.projecttext {
-  width: 93%;
-  margin: 1rem;
-  margin-top: 0.8rem;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.projecttext a {
-  font-size: 32px;
-  align-self: flex-end;
-  padding-top: 1rem;
-}
-
-.projecttext h2 { 
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem; 
-}
-.projecttext h3 {
-  margin-top: 0.5rem;
-  margin-bottom: 2rem; 
-  color: white
 }
 
 /* Breakpoints for project containers */
