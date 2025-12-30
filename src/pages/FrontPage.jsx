@@ -2,7 +2,8 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import About from '../components/About.jsx'
-import ProjectContainer from '../components/ProjectContainer'
+import Projects from '../components/Projects.jsx'
+import OtherWork from '../components/OtherWork.jsx'
 
 function FrontPage() {
 
@@ -23,7 +24,9 @@ function FrontPage() {
         <p>
           Lorem ipsum etc.
         </p>
-        <ProjectContainer />
+        <Projects />
+        <h1>Studies</h1>
+        <OtherWork />
       </div>
       <About />
       <Footer />
