@@ -13,8 +13,9 @@ export default function ProjectContainer() {
             This campaign strategy and proof-of-concept game was praised by real
              professionals in the field of communications for its 
              clear strategy, noting it could be put to use as-is."
-            tech="Campaign design & strategy, research, content creation. 
-            Responsible for POC design and implementation (React/CSS)"
+            tech="Worked on campaign design & strategy formulation, research, 
+            content creation. Responsible for proof-of-concept design and 
+            implementation with React."
             date="January 2025 – May 2025"
             link="./projects/communication-campaign"
           />
