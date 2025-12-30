@@ -1,12 +1,12 @@
 import './Projects.css'
-import ProjectCard from './ProjectCard'
+import OtherCard from './OtherCard'
 
 export default function OtherWork() {
   return (
     <section className="projects" id="projects">
       <div className="projectpile">
         <div className="top-projects">
-          <ProjectCard
+          <OtherCard
             imageSrc=""
             title="X"
             subtitle=""
@@ -14,7 +14,7 @@ export default function OtherWork() {
             date=""
             link="./"
           />
-          <ProjectCard
+          <OtherCard
             imageSrc=""
             title="Y"
             subtitle=""
@@ -22,7 +22,7 @@ export default function OtherWork() {
             date=""
             link="./"
           />
-          <ProjectCard
+          <OtherCard
             imageSrc=""
             title="Z"
             subtitle=""
