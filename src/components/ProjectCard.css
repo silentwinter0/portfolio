@@ -4,7 +4,6 @@
   align-items: center;
 }
 .topprojectcontainer img{
-  max-width: 160px;
   width: 100%;
   height: auto;
   object-fit: cover;
