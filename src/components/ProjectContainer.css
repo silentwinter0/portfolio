@@ -60,20 +60,19 @@
 }
 
 .projecttext {
-  width: 100%;
+  width: 93%;
   margin: 1rem;
   margin-top: 0.8rem;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 2.5rem;
 }
 
 .projecttext a {
   font-size: 32px;
   align-self: flex-end;
-  padding-right: 3rem;
+  padding-top: 1rem;
 }
 
 .projecttext h2 { 
