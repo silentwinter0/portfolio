@@ -11,7 +11,7 @@ export default function ProjectCard({ imageSrc, title, subtitle, tech, date, lin
         <h3>{subtitle}</h3>
         <p>{tech}</p>
         <p>{date}</p>
-        <a href={link}>Read more</a>
+        <a href={link}>Read more {'-->'}</a>
       </div>
     </div>
   )
