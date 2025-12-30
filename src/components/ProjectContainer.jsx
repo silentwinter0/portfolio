@@ -11,8 +11,8 @@ export default function ProjectContainer() {
             title="Communication Campaign – Teaching to recognize AI images"
             subtitle="How can we raise awareness about misleading AI images? 
             This campaign strategy and proof-of-concept game was praised by real
-             professionals in the field of communications, whom praised its 
-             clear strategy and noted it could be put to use as-is."
+             professionals in the field of communications for its 
+             clear strategy, noting it could be put to use as-is."
             tech="Campaign design & strategy, research, content creation. 
             Responsible for POC design and implementation (React/CSS)"
             date="January 2025 – May 2025"
@@ -30,34 +30,10 @@ export default function ProjectContainer() {
           />
           <ProjectCard
             imageSrc=""
-            title="Project Title"
-            subtitle="Testing wider layout"
-            tech="React, CSS"
-            date="March 2024"
-            link="./"
-          />
-          <ProjectCard
-            imageSrc=""
-            title="Project Title"
-            subtitle="Another test card"
-            tech="HTML, CSS"
-            date="April 2024"
-            link="./"
-          />
-          <ProjectCard
-            imageSrc=""
-            title="Project Title"
-            subtitle="Testing wider layout"
-            tech="React, CSS"
-            date="March 2024"
-            link="./"
-          />
-          <ProjectCard
-            imageSrc=""
-            title="Project Title"
-            subtitle="Another test card"
-            tech="HTML, CSS"
-            date="April 2024"
+            title="This portfolio site!"
+            subtitle="This site was built from scratch by me using React and CSS."
+            tech="Developed with React, CSS"
+            date="December 2025"
             link="./"
           />
         </div>
