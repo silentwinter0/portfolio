@@ -14,10 +14,9 @@ function FrontPage() {
       <div className="card">
         <h1>Sami Manner</h1>
         <p className='bigtext'>
-          I'm a undergraduate engineering student, <br/>
-          studying Information Networks at Aalto University.
-          <br />Lorem ipsum please write <br />
-          something reasonable here.
+          I'm an undergraduate engineering student, studying Information 
+          Networks at Aalto University. Lorem ipsum please write something 
+          reasonable here.
         </p>
       </div>
       <div className="card">
@@ -36,6 +35,21 @@ function FrontPage() {
               />
         <h1>Other work</h1>
         <OtherWork />
+        <h1>Work Experience</h1>
+            <Article
+              imageSrc=""
+              title="X"
+              subtitle="2023–2024"
+              content="TODO"
+              link="./"
+              />
+            <Article
+              imageSrc=""
+              title="X"
+              subtitle="2023–2024"
+              content="TODO"
+              link="./"
+              />
       </div>
       <About />
       <Footer />
