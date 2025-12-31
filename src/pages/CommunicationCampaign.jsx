@@ -12,7 +12,6 @@ function CommunicationCampaign() {
         <h1>Communication Campaign – Teaching to recognize AI images</h1>
         <p>January 2025 – May 2025</p>
         <p className='bigtext'>
-          <br/>
           How can we raise awareness about misleading AI images? <br/><br/>
 
           This campaign strategy and proof-of-concept game was praised by real 
@@ -27,7 +26,7 @@ function CommunicationCampaign() {
         <Article
           title='Tunnistatko tekoälykuvat? – Would you recognize an AI-image?'
           subtitle=''
-          content="Lorem ipsum"
+          content=''
         />
       </div>
       <Footer />
