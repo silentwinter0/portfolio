@@ -37,7 +37,7 @@ function FrontPage() {
               />
         <h1>Other work</h1>
         <OtherWork />
-        <h1>Work Experience</h1>
+        <h1>Work experience</h1>
             <ArticleWithModal
               imageSrc=""
               title="X"
