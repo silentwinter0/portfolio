@@ -1,5 +1,6 @@
 import './Projects.css'
 import OtherCard from './OtherCard'
+import OtherCardWithModal from './OtherCardWithModal'
 
 export default function OtherWork() {
   return (
@@ -14,13 +15,15 @@ export default function OtherWork() {
             date="2025"
             link="./"
           />
-          <OtherCard
+          <OtherCardWithModal
             imageSrc=""
-            title="Iterative UX/UI design plan for a smartwatch GUI"
+            title="Iterative UX/UI design plan for developing a smartwatch GUI"
             subtitle=""
             tech=""
             date="2025"
             link="./"
+            modalTitle='XYZ'
+            modalText='ABC'
           />
         </div>
       </div>
