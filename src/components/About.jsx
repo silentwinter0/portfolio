@@ -3,7 +3,7 @@ import selfPortrait from '../assets/images/pic1.jpg'
 
 export default function About() {
   return (
-    <section id="about" className="about">
+    <section className="about">
       <h1>ABOUT ME</h1>
       <div className="selfportrait">
         <img src={selfPortrait} alt="A picture of the website author, myself." />
