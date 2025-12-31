@@ -48,3 +48,9 @@ html, body, #root {
   font-weight: 500;
   margin: 0.5rem 0;
 }
+
+.beginning-introduction {
+  padding: 2em;
+  width: 40%;
+  box-sizing: border-box;
+}
