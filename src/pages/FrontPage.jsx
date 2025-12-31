@@ -19,7 +19,7 @@ function FrontPage() {
           reasonable here.
         </p>
       </div>
-      <div className="card">
+      <div className="card" id='projects'>
         <h1>Projects</h1>
         <p>
           Lorem ipsum etc.
@@ -57,7 +57,8 @@ function FrontPage() {
               modalText="ABC"
               />
       </div>
-      <About />
+      <div id='about' />
+      <About  />
       <Footer />
     </div>
   )

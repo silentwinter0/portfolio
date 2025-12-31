@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard'
 
 export default function Projects() {
   return (
-    <section className="projects" id="projects">
+    <section className="projects">
       <div className="projectpile">
         <div className="top-projects">
           <ProjectCard
