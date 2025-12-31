@@ -1,6 +1,7 @@
 import React from 'react'
 import './Article.css'
 import Modal from './Modal'
+import './Modal.css'
 
 export default function ArticleWithModal({ 
   imageSrc = '', title = '', subtitle = '', content = '', link = '#',
