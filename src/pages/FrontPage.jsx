@@ -4,6 +4,7 @@ import Header from '../components/Header.jsx'
 import About from '../components/About.jsx'
 import Projects from '../components/Projects.jsx'
 import OtherWork from '../components/OtherWork.jsx'
+import Article from '../components/Article.jsx'
 
 function FrontPage() {
 
@@ -26,6 +27,14 @@ function FrontPage() {
         </p>
         <Projects />
         <h1>Studies</h1>
+            <Article
+              imageSrc=""
+              title="Information Networks, Bachelor of Science student at Aalto University"
+              subtitle="2024–present"
+              content="TODO"
+              link="./"
+              />
+        <h1>Other work</h1>
         <OtherWork />
       </div>
       <About />
