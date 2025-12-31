@@ -8,9 +8,10 @@ export default function Article({ imageSrc = '', title = '', subtitle = '', cont
         <h2>{title}</h2>
         <h3>{subtitle}</h3>
         <p>{content}</p>
-        <div className="article-readmore">
+        
+        {/*<div className="article-readmore">
           <a href={link}>Read more</a>
-        </div>
+        </div>*/}
       </div>
     </article>
   )
