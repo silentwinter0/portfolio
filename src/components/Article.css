@@ -40,10 +40,13 @@
 }
 
 .article-readmore {
-  font-size: 32px;
   align-self: center;
   padding-top: 5rem;
   padding-bottom: 2rem;
+}
+
+.article-readmore a {
+  font-size: 32 px;
 }
 
 .article-projecttext h2 {
