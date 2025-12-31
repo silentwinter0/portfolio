@@ -8,26 +8,18 @@ export default function OtherWork() {
         <div className="top-projects">
           <OtherCard
             imageSrc=""
-            title="X"
+            title="Essays in Software Engineering"
             subtitle=""
             tech=""
-            date=""
+            date="2025"
             link="./"
           />
           <OtherCard
             imageSrc=""
-            title="Y"
+            title="Iterative UX/UI design plan for a smartwatch GUI"
             subtitle=""
             tech=""
-            date=""
-            link="./"
-          />
-          <OtherCard
-            imageSrc=""
-            title="Z"
-            subtitle=""
-            tech=""
-            date=""
+            date="2025"
             link="./"
           />
         </div>
