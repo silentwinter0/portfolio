@@ -11,7 +11,7 @@ function FrontPage() {
   return (
     <div className="background">
       <Header />
-      <div className="card">
+      <div className="beginning-introduction">
         <h1>Sami Manner</h1>
         <p className='bigtext'>
           I'm an undergraduate engineering student, studying Information 
