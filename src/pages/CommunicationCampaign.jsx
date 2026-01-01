@@ -9,24 +9,30 @@ function CommunicationCampaign() {
     <div className="background">
       <Header />
       <div className="card">
-        <h1>Communication Campaign – Teaching to recognize AI images</h1>
+        <h1>Teaching digital novices to 
+            recognize AI images – A communication campaign</h1>
         <p>January 2025 – May 2025</p>
         <p className='bigtext'>
-          How can we raise awareness about misleading AI images? <br/><br/>
-
-          This campaign strategy and proof-of-concept game was praised by real 
-          professionals in the field of communications for its clear strategy, 
-          noting it could be put to use as-is. <br/><br/>
-
-          Worked on campaign design & strategy, research, content creation. <br/>
-          Responsible for proof-of-concept design and implementation (React/CSS)
+          <br/>
+              How can we raise awareness about misleading AI images? 
+              This communication campaign strategy and proof-of-concept game was
+              presented to and praised by real professionals for 
+              its clear strategy, noting it could be put to use as-is. 
+              <br/><br/>
+              Worked on campaign design & strategy formulation, research, 
+              and content creation.
+              <br/><br/>
+              Responsible for proof-of-concept design and 
+              implementation with React.
         </p>
       </div>
       <div className='card'>
         <Article
-          title='Tunnistatko tekoälykuvat? – Would you recognize an AI-image?'
+          title='Would you recognize an AI-image?'
           subtitle=''
-          content=''
+          content={<>
+            Lorem ipsum
+          </>}
         />
       </div>
       <Footer />
