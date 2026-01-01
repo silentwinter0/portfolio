@@ -41,6 +41,10 @@
 
 .projecttext h2{
   margin: 0 0 0.25rem 0;
+  line-height: 1.15em;
+  height: calc(1.15em * 2.5);
+  overflow: hidden;
+  display: block;
 }
 
 .projecttext h3{
