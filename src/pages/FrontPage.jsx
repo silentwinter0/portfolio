@@ -35,7 +35,31 @@ function FrontPage() {
               imageSrc=""
               title="Information Networks, Bachelor of Science student at Aalto University"
               subtitle="2024–present"
-              content="TODO"
+              content={
+                <>
+                The Information Networks major prepares socially conscious
+                IT and business experts. Studies include engineering basics 
+                (mathematics, physics and programming), business (e.g. 
+                industrial engineering) and technology (programming and design), 
+                training professionals who master the principles of both IT 
+                systems and business and organizational development.
+                <br/><br/>
+                The major creates the skills to develop in their working life, 
+                including as product owners, managers, and developers of new 
+                products, services and organizations that utilize information 
+                technology.
+
+                Graduates are typically experts in human- and society-centered 
+                technology, working as programmers, designers, business 
+                consultants, strategy directors, project managers, data 
+                analysts and product owners.
+
+                I have focused my studies in [CONTINUE].
+
+                You can see some of my course work in the Projects and Other 
+                works -sections.
+                </>
+              }
               link="./"
               modalTitle="Information Networks"
               modalText="ABC"
