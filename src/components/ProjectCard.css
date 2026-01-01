@@ -52,3 +52,13 @@
 .projecttext p{
   margin: 0.125rem 0;
 }
+
+.projecttext .tech-date {
+  margin-top: auto;
+}
+
+.projecttext a {
+  font-size: 32px;
+  align-self: flex-end;
+  padding-top: 1rem;
+}
