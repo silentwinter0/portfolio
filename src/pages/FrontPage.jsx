@@ -19,7 +19,7 @@ function FrontPage() {
           Aalto University.
           <br/><br/>
           I'm interested in product development,
-          data science, UI/UX and achieving strategic goals through projects and 
+          data science, UI/UX design and achieving strategic goals through projects and 
           campaigns.
         </p>
       </div>
