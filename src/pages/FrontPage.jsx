@@ -5,7 +5,6 @@ import About from '../components/About.jsx'
 import Projects from '../components/Projects.jsx'
 import OtherWork from '../components/OtherWork.jsx'
 import Article from '../components/Article.jsx'
-import ArticleWithModal from '../components/ArticleWithModal.jsx'
 
 function FrontPage() {
 
