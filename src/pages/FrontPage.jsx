@@ -26,9 +26,6 @@ function FrontPage() {
       </div>
       <div className="card" id='projects'>
         <h1>Projects</h1>
-        <p>
-          Lorem ipsum etc.
-        </p>
         <Projects />
       </div>
       <div className="card" id='studies'>
