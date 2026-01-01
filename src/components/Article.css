@@ -69,3 +69,7 @@
   max-width: 140ch;
   font-size: 22px;
 }
+
+.article-projecttext a {
+  color: #6666FF;
+}
