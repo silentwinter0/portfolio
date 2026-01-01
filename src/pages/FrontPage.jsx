@@ -36,7 +36,7 @@ function FrontPage() {
             <Article
               imageSrc=""
               title="Information Networks, Bachelor of Science student at Aalto University"
-              subtitle="2024–present"
+              subtitle="2024 – present"
               content={
                 <>
                 The Information Networks major prepares socially conscious
@@ -75,11 +75,11 @@ function FrontPage() {
             subtitle="August 2024 – present"
             content={
               <>
-                Part-time teacher of advanced mathematics and sciences
+                Part-time teacher of advanced mathematics and sciences.
                 <br/><br/>
-                Experienced in managing large groups of students and
-                finding methods to effectively teach new concepts to a
-                diverse audience.
+                Gained experience in explaining complex concepts clearly, and 
+                managing large groups of students. Learned to find and apply new
+                 methods to effectively teach new concepts to a diverse audience.
               </>
             }
             link="./"
