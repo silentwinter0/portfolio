@@ -9,8 +9,10 @@ export default function ProjectCard({ imageSrc, title, subtitle, tech, date, lin
       <div className="projecttext">
         <h2>{title}</h2>
         <h3>{subtitle}</h3>
-        <p>{tech}</p>
-        <p>{date}</p>
+        <div className="tech-date">
+          <p>{tech}</p>
+          <p>{date}</p>
+        </div>
         <a href={link}>Read more {'-->'}</a>
       </div>
     </div>
