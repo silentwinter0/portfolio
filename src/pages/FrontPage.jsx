@@ -42,9 +42,9 @@ function FrontPage() {
                 The Information Networks major prepares socially conscious
                 IT and business experts. Studies include engineering basics 
                 (mathematics, physics and programming), business (e.g. 
-                industrial engineering) and technology (programming and design), 
-                training professionals who master the principles of both IT 
-                systems and business and organizational development.
+                industrial engineering) and technology (computer science and 
+                design), training professionals who master the principles of 
+                both IT systems & business and organizational development.
                 <br/><br/>
                 The major creates the skills to develop in their working life, 
                 including as product owners, managers, and developers of new 
@@ -56,7 +56,10 @@ function FrontPage() {
                 consultants, strategy directors, project managers, data 
                 analysts and product owners.
                 <br/><br/>
-                I have focused my studies in [CONTINUE].
+                I have focused my studies in industrial engineering and 
+                management & computer science, and I am completing minors in 
+                both subjects. I'm working on developing project development and
+                data science skills.
                 You can see some of my course work in my <a href='./#projects'>projects</a> and <a href='./#other-work'>other work</a> below.
                 </>
               }
