@@ -4,6 +4,7 @@ import Header from '../components/Header.jsx'
 import About from '../components/About.jsx'
 import Projects from '../components/Projects.jsx'
 import OtherWork from '../components/OtherWork.jsx'
+import Article from '../components/Article.jsx'
 import ArticleWithModal from '../components/ArticleWithModal.jsx'
 
 function FrontPage() {
@@ -42,23 +43,40 @@ function FrontPage() {
         <h1>Other work</h1>
         <OtherWork />
         <h1>Work experience</h1>
-            <ArticleWithModal
+            <Article
               imageSrc=""
-              title="X"
-              subtitle="2023–2024"
-              content="TODO"
+              title="Substitute teacher in advanced mathematics and sciences, upper secondary school"
+              subtitle="August 2024 – present"
+              content={
+                <>
+                  Part-time teacher of advanced mathematics and sciences
+                  <br/><br/>
+                  Experienced in managing large groups of students and
+                  finding methods to effectively teach new concepts to a
+                  diverse audience.
+                </>
+              }
               link="./"
-              modalTitle="XYZ"
-              modalText="ABC"
               />
-            <ArticleWithModal
+            <Article
               imageSrc=""
-              title="X"
-              subtitle="2023–2024"
-              content="TODO"
+              title="Technical & administrative assistant, upper secondary school"
+              subtitle="August 2023 – July 2024"
+              content={
+                <>
+                Responsible for maintaining IT systems used by staff and students, and providing administrative assistance
+                <br/><br/>
+                Improved efficiency of exam system upgrades by effectively 
+                reallocating limited resources
+                <br/><br/>
+                Trained teachers in effective use of modern technology for teaching, improving digital ergonomics
+                <br/><br/>
+                Organized events for student wellbeing, demonstrating skills in organization and logistics
+                <br/><br/>
+                Contributed to the successful execution of high-profile school events involving foreign diplomats, demonstrating coordination and communications skills in promoting the school’s global outreach and reputation
+                </>
+              }
               link="./"
-              modalTitle="XYZ"
-              modalText="ABC"
               />
       </div>
       <div id='about' />
