@@ -78,7 +78,7 @@ function FrontPage() {
                 <br/><br/>
                 Gained experience in explaining complex concepts clearly, and 
                 managing large groups of students. Learned to find and apply new
-                 methods to effectively teach new concepts to a diverse audience.
+                methods to effectively teach new concepts to a diverse audience.
               </>
             }
             link="./"
