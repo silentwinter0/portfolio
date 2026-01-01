@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 3rem;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
