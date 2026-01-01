@@ -13,7 +13,7 @@ export default function Projects() {
             subtitle={<>
               How can we raise awareness about misleading AI images? 
               This communication campaign strategy and proof-of-concept game was
-              praised by real professionals in the field of communications for 
+              presented to and praised by real professionals for 
               its clear strategy, noting it could be put to use as-is. 
               <br/><br/>
               Worked on campaign design & strategy formulation, research, 
