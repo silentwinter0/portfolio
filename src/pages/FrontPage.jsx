@@ -14,9 +14,13 @@ function FrontPage() {
       <div className="beginning-introduction">
         <h1>Sami Manner</h1>
         <p className='bigtext'>
-          I'm an undergraduate engineering student, studying Information 
-          Networks at Aalto University. Lorem ipsum please write something 
-          reasonable here.
+          I'm an undergraduate engineering student, studying technology, 
+          business and society in the Information Networks programme at 
+          Aalto University.
+          <br/><br/>
+          I'm interested in product development,
+          data science, UI/UX and achieving strategic goals with projects and 
+          campaigns.
         </p>
       </div>
       <div className="card" id='projects'>
