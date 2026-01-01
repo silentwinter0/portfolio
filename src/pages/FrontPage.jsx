@@ -30,8 +30,10 @@ function FrontPage() {
           Lorem ipsum etc.
         </p>
         <Projects />
+      </div>
+      <div className="card" id='studies'>
         <h1>Studies</h1>
-            <ArticleWithModal
+            <Article
               imageSrc=""
               title="Information Networks, Bachelor of Science student at Aalto University"
               subtitle="2024–present"
@@ -48,46 +50,46 @@ function FrontPage() {
                 including as product owners, managers, and developers of new 
                 products, services and organizations that utilize information 
                 technology.
-
+                
                 Graduates are typically experts in human- and society-centered 
                 technology, working as programmers, designers, business 
                 consultants, strategy directors, project managers, data 
                 analysts and product owners.
-
+                <br/><br/>
                 I have focused my studies in [CONTINUE].
-
-                You can see some of my course work in the Projects and Other 
-                works -sections.
+                You can see some of my course work in my <a href='./#projects'>projects</a> and <a href='./#other-work'>other work</a> below.
                 </>
               }
               link="./"
-              modalTitle="Information Networks"
-              modalText="ABC"
               />
+        </div>
+      <div className='card' id='other-work'>
         <h1>Other work</h1>
         <OtherWork />
+      </div>
+      <div className='card' id='work-experience'>
         <h1>Work experience</h1>
-            <Article
-              imageSrc=""
-              title="Substitute teacher in advanced mathematics and sciences, upper secondary school"
-              subtitle="August 2024 – present"
-              content={
-                <>
-                  Part-time teacher of advanced mathematics and sciences
-                  <br/><br/>
-                  Experienced in managing large groups of students and
-                  finding methods to effectively teach new concepts to a
-                  diverse audience.
-                </>
-              }
-              link="./"
-              />
-            <Article
-              imageSrc=""
-              title="Technical & administrative assistant, upper secondary school"
-              subtitle="August 2023 – July 2024"
-              content={
-                <>
+          <Article
+            imageSrc=""
+            title="Substitute teacher in advanced mathematics and sciences, upper secondary school"
+            subtitle="August 2024 – present"
+            content={
+              <>
+                Part-time teacher of advanced mathematics and sciences
+                <br/><br/>
+                Experienced in managing large groups of students and
+                finding methods to effectively teach new concepts to a
+                diverse audience.
+              </>
+            }
+            link="./"
+            />
+          <Article
+            imageSrc=""
+            title="Technical & administrative assistant, upper secondary school"
+            subtitle="August 2023 – July 2024"
+            content={
+              <>
                 Responsible for maintaining IT systems used by staff and students, and providing administrative assistance
                 <br/><br/>
                 Improved efficiency of exam system upgrades by effectively 
@@ -98,10 +100,10 @@ function FrontPage() {
                 Organized events for student wellbeing, demonstrating skills in organization and logistics
                 <br/><br/>
                 Contributed to the successful execution of high-profile school events involving foreign diplomats, demonstrating coordination and communications skills in promoting the school’s global outreach and reputation
-                </>
-              }
-              link="./"
-              />
+              </>
+            }
+            link="./"
+            />
       </div>
       <div id='about' />
       <About  />
