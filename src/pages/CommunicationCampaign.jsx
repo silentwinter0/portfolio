@@ -2,15 +2,25 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
+import { useState } from 'react'
+import ImageModal from '../components/ImageModal.jsx'
+
+// Pics
+import pic1 from '../assets/images/projects/comms/game.png'
+import pic2 from '../assets/images/projects/comms/planning.png'
+import pic3 from '../assets/images/projects/comms/illustration1.jpeg'
+import pic4 from '../assets/images/projects/comms/illustration2.jpeg'
+import pic5 from '../assets/images/projects/comms/IS-visa-artikkeli.png'
 
 function CommunicationCampaign() {
+  const [selectedImage, setSelectedImage] = useState(null)
 
   return (
     <div className="background">
       <Header />
       <div className="card">
         <h1>Teaching digital novices to 
-            recognize AI images and disinformation – A communication campaign</h1>
+            recognize AI images and disinformation | A communication campaign</h1>
         <p>January 2025 – May 2025</p>
         <p className='bigtext'>
           <br/>
@@ -25,6 +35,28 @@ function CommunicationCampaign() {
               Responsible for proof-of-concept design and 
               implementation with React.
         </p>
+      </div>
+      <div className='card'>
+        <h2>Gallery</h2>
+        <div className='image-gallery'>
+          {[
+            {src: pic1, alt: 'Game screen', caption: 'The front page of the proof-of-concept game'},
+            {src: pic3, alt: 'Outdoor illustration 1', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
+            {src: pic4, alt: 'Outdoor illustration 2', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
+            {src: pic5, alt: 'Article mockup', caption: 'One of the article mockups we designed. This is what the campaign-supporting articles could look like.'},
+            {src: pic2, alt: 'Campaign planning board', caption: 'Our planning board in Miro, where we refined the strategy for our campaign.'},
+          ].map((img, i) => (
+            <img
+              key={i}
+              src={img.src}
+              alt={img.alt}
+              tabIndex={0}
+              onClick={() => setSelectedImage(img)}
+              onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSelectedImage(img)}
+            />
+          ))}
+        </div>
+        <ImageModal image={selectedImage} onClose={() => setSelectedImage(null)} />
       </div>
       <div className='card'>
         <Article
@@ -43,7 +75,7 @@ function CommunicationCampaign() {
             presented to Vapa Media, a marketing and communications company, 
             whose employees praised its clear strategy, idea and execution, 
             stating it could be put to use as-is. In fact, they offered to reach
-            out in case 
+            out in case they wanted to go forward with implementing the campaign.
             <br/><br/>
             Our selected course audience was the "older generation" of Finnish 
             social media users: users of Facebook, aged 50 and above, and are 
