@@ -68,3 +68,28 @@
 .article-projecttext a {
   color: #6666FF;
 }
+
+.inline-article-image {
+  display: block;
+  max-width: 60%;
+  width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border: 2px solid white;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.inline-article-figure {
+  display: block;
+  max-width: 60%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.inline-article-caption {
+  color: white;
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  line-height: 1.2;
+}
