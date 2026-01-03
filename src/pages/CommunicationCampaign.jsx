@@ -12,6 +12,9 @@ import pic3 from '../assets/images/projects/comms/illustration1.jpeg'
 import pic4 from '../assets/images/projects/comms/illustration2.jpeg'
 import pic5 from '../assets/images/projects/comms/IS-visa-artikkeli.png'
 import pic6 from '../assets/images/projects/comms/social.png'
+import pic7 from '../assets/images/projects/comms/game1.png'
+import pic8 from '../assets/images/projects/comms/game2.png'
+import pic9 from '../assets/images/projects/comms/game3.png'
 
 function CommunicationCampaign() {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -149,6 +152,21 @@ function CommunicationCampaign() {
             <figure className='inline-article-figure'>
               <img
                 src={pic1}
+                alt='Game screen'
+                className='inline-article-image'
+              />
+              <img
+                src={pic7}
+                alt='Game screen'
+                className='inline-article-image'
+              />
+              <img
+                src={pic8}
+                alt='Game screen'
+                className='inline-article-image'
+              />
+              <img
+                src={pic9}
                 alt='Game screen'
                 className='inline-article-image'
               />
