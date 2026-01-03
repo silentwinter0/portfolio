@@ -42,7 +42,7 @@ function CommunicationCampaign() {
         <div className='image-gallery'>
           {[
             {src: pic1, alt: 'Game screen', caption: 'The front page of the proof-of-concept game'},
-            {src: pic6, alt: 'Social post mockup', caption: "TEST"},
+            {src: pic6, alt: 'Social post mockup', caption: "A demonstration of how the social media campaign might work. The first post shows a picture that's more obviously AI-generated, while the latter post one day later contains a more believable AI image."},
             {src: pic3, alt: 'Outdoor illustration 1', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
             {src: pic4, alt: 'Outdoor illustration 2', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
             {src: pic5, alt: 'Article mockup', caption: 'One of the article mockups we designed. This is what the campaign-supporting articles could look like.'},
@@ -63,7 +63,7 @@ function CommunicationCampaign() {
       <div className='card'>
         <Article
           title='Would you recognize an AI-image?'
-          subtitle='THE PLAN'
+          subtitle='The strategy'
           content={<>
             This group project was completed for a course in communication and 
             digital media. Our task was to design a communication campaign, 
@@ -134,7 +134,7 @@ function CommunicationCampaign() {
         />
         <Article
           title='The proof-of-concept game'
-          subtitle='THE EXECUTION'
+          subtitle='The execution'
           content={<>
             After the planning stage was completed, we got to work on the 
             execution. I was in charge of implementing most of the AI image 
