@@ -11,6 +11,7 @@ import pic2 from '../assets/images/projects/comms/planning.png'
 import pic3 from '../assets/images/projects/comms/illustration1.jpeg'
 import pic4 from '../assets/images/projects/comms/illustration2.jpeg'
 import pic5 from '../assets/images/projects/comms/IS-visa-artikkeli.png'
+import pic6 from '../assets/images/projects/comms/social.png'
 
 function CommunicationCampaign() {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -41,6 +42,7 @@ function CommunicationCampaign() {
         <div className='image-gallery'>
           {[
             {src: pic1, alt: 'Game screen', caption: 'The front page of the proof-of-concept game'},
+            {src: pic6, alt: 'Social post mockup', caption: "TEST"},
             {src: pic3, alt: 'Outdoor illustration 1', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
             {src: pic4, alt: 'Outdoor illustration 2', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
             {src: pic5, alt: 'Article mockup', caption: 'One of the article mockups we designed. This is what the campaign-supporting articles could look like.'},
