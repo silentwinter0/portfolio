@@ -69,22 +69,35 @@
   color: #6666FF;
 }
 
-.inline-article-image {
-  display: block;
-  max-width: 60%;
-  width: 100%;
-  height: auto;
+.inline-article-figure {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   margin: 1rem auto;
+  max-width: 100%;
+}
+
+.inline-article-image {
+  flex: 0 1 calc(50% - 1rem);
+  max-width: calc(50% - 1rem);
+  height: auto;
   border: 2px solid white;
   box-sizing: border-box;
   object-fit: cover;
+  display: block;
 }
 
-.inline-article-figure {
-  display: block;
-  max-width: 60%;
-  margin: 1rem auto;
-  text-align: center;
+.inline-article-image:focus {
+  outline: none;
+}
+
+@media (max-width: 640px) {
+  .inline-article-image {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 
 .inline-article-caption {
@@ -92,4 +105,6 @@
   font-size: 0.95rem;
   margin-top: 0.4rem;
   line-height: 1.2;
+  width: 100%;
+  text-align: center;
 }

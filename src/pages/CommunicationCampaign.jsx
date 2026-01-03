@@ -15,6 +15,7 @@ import pic6 from '../assets/images/projects/comms/social.png'
 import pic7 from '../assets/images/projects/comms/game1.png'
 import pic8 from '../assets/images/projects/comms/game2.png'
 import pic9 from '../assets/images/projects/comms/game3.png'
+import pic10 from '../assets/images/projects/comms/game4.png'
 
 function CommunicationCampaign() {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -151,11 +152,6 @@ function CommunicationCampaign() {
           content={<>
             <figure className='inline-article-figure'>
               <img
-                src={pic1}
-                alt='Game screen'
-                className='inline-article-image'
-              />
-              <img
                 src={pic7}
                 alt='Game screen'
                 className='inline-article-image'
@@ -170,7 +166,12 @@ function CommunicationCampaign() {
                 alt='Game screen'
                 className='inline-article-image'
               />
-              <figcaption className='inline-article-caption'>The front page of the proof-of-concept game.</figcaption>
+              <img
+                src={pic10}
+                alt='Game screen'
+                className='inline-article-image'
+              />
+              <figcaption className='inline-article-caption'>The proof-of-concept game in action.</figcaption>
             </figure>
             <br/><br/>
             After the planning stage was completed, we got to work on the 
