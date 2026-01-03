@@ -65,6 +65,15 @@ function CommunicationCampaign() {
           title='Would you recognize an AI-image?'
           subtitle='The strategy'
           content={<>
+            <figure className='inline-article-figure'>
+              <img
+                src={pic6}
+                alt='Social post mockup'
+                className='inline-article-image'
+              />
+              <figcaption className='inline-article-caption'>Both images in these fictional posts are AI generated.</figcaption>
+            </figure>
+            <br/><br/>
             This group project was completed for a course in communication and 
             digital media. Our task was to design a communication campaign, 
             seeking to inform a particular audience or to cause a change in the
@@ -73,6 +82,7 @@ function CommunicationCampaign() {
             inclined of the prevalence of AI images and mis- and disinformation 
             making use of them on social media. 
             <br/><br/>
+
             Our campaign was one of three selected by course organizers to be 
             presented to Vapa Media, a marketing and communications company, 
             whose employees praised its clear strategy, idea and execution, 
@@ -136,8 +146,18 @@ function CommunicationCampaign() {
           title='The proof-of-concept game'
           subtitle='The execution'
           content={<>
+            <figure className='inline-article-figure'>
+              <img
+                src={pic1}
+                alt='Game screen'
+                className='inline-article-image'
+              />
+              <figcaption className='inline-article-caption'>The front page of the proof-of-concept game.</figcaption>
+            </figure>
+            <br/><br/>
             After the planning stage was completed, we got to work on the 
-            execution. I was in charge of implementing most of the AI image 
+            execution.
+            I was in charge of implementing most of the AI image 
             recognition game, while my group members were in charge of selecting 
             fonts, creating UI elements and the additional parts of the campaign,
             such as the bus stop ads, article mockups and social media posts. 
