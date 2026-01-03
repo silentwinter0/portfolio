@@ -77,4 +77,4 @@ html, body, #root {
   .image-gallery img { height: 200px; }
 }
 
-.image-gallery img:focus { box-shadow: 0 0 0 3px rgba(13,0,255,0.25); }
+.image-gallery img:focus { box-shadow: 0 0 0 3px #3daee9; }
