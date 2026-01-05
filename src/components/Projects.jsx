@@ -1,5 +1,8 @@
 import './Projects.css'
 import ProjectCard from './ProjectCard'
+import pic1 from '../assets/images/projects/comms/game.png'
+import pic2 from '../assets/images/projects/simplescheduler/scheduler.png'
+import pic3 from '../assets/images/projects/comms/game.png'
 
 export default function Projects() {
   return (
@@ -7,7 +10,7 @@ export default function Projects() {
       <div className="projectpile">
         <div className="top-projects">
           <ProjectCard
-            imageSrc=""
+            imageSrc={pic1}
             title="Teaching digital novices to 
             recognize AI images"
             subtitle={<>
@@ -25,7 +28,8 @@ export default function Projects() {
             link="./projects/communication-campaign"
           />
           <ProjectCard
-            imageSrc=""
+            imageSrc={pic2}
+            imagePosition='left'
             title="Command-line Scheduler in C"
             subtitle={<>
               Simple scheduling system for scheduling one-hour meeting 
@@ -38,7 +42,7 @@ export default function Projects() {
             link="./projects/c-scheduler"
           />
           <ProjectCard
-            imageSrc=""
+            imageSrc={pic3}
             title="This portfolio site!"
             subtitle={<>
               This site was built by me using React and CSS. Initially 
