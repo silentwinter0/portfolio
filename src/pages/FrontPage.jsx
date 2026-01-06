@@ -39,8 +39,8 @@ function FrontPage() {
         <h1>Other work</h1>
         <OtherWork />
       </div>
-      <div className="card article-container" id='studies'>
-        <h1>Studies</h1>
+      <div className="card article-container" id='education'>
+        <h1>Education</h1>
             <Article
               imageSrc=""
               title="Information Networks, Bachelor of Science student at Aalto University"
