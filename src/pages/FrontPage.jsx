@@ -5,13 +5,15 @@ import About from '../components/About.jsx'
 import Projects from '../components/Projects.jsx'
 import OtherWork from '../components/OtherWork.jsx'
 import Article from '../components/Article.jsx'
+import selfPortrait from '../assets/images/pic1.jpg'
 
 function FrontPage() {
 
   return (
     <div className="background">
       <Header />
-      <div className="beginning-introduction">
+      <div className='introduction-box'>
+        <div className="introduction-text">
         <h1>Sami Manner</h1>
         <p className='bigtext'>
           I'm an undergraduate engineering student, studying technology, 
@@ -22,6 +24,10 @@ function FrontPage() {
           data science, UI/UX design and achieving strategic goals through projects and 
           campaigns.
         </p>
+        </div>
+        <div className="introduction-pic">
+          <img src={selfPortrait} alt="A picture of myself." />
+        </div>
       </div>
       <div className="card" id='projects'>
         <h1>Projects</h1>
