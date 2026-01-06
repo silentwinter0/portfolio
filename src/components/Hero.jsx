@@ -27,13 +27,14 @@ const Hero = () => {
             const waveCount = 40;
 
             for (let i = 0; i < waveCount; i++) {
+                const ampModifier = i / waveCount;
                 
                 ctx.beginPath();
                 ctx.lineWidth = 1.5;
-                ctx.strokeStyle = `rgba(25, 0, 155)`;
+                ctx.strokeStyle = `rgba(25, 0, 155, ${1 - ampModifier / 2})`;
 
                 const yOffset = (canvas.height * 0.2) + (i * 15);
-                const amplitude = 50;
+                const amplitude = 50 * (1 - ampModifier);
                 const frequency = 0.01;
 
                 for (let x = 0; x <= canvas.width; x += 5) {
