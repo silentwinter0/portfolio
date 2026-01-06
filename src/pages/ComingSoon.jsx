@@ -23,7 +23,7 @@ function ComingSoon() {
             More to come!
         </p>
       </div>
-      <div className='card'>
+      <div className='card article-container'>
         <Article
           title='Coming soon!'
           subtitle=''

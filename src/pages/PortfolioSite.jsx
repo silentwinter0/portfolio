@@ -26,7 +26,7 @@ function PortfolioSite() {
             my current skills and expertise.
         </p>
       </div>
-      <div className='card'>
+      <div className='card article-container'>
         <Article
           title='Coming soon!'
           subtitle=''
