@@ -17,7 +17,7 @@ function FrontPage() {
       <div className='introduction-box'>
         <div className="introduction-text">
         <h1>Sami Manner</h1>
-        <p className='bigtext'>
+        <p className='introduction-bigtext'>
           I'm an undergraduate engineering student, studying technology, 
           business and society in the Information Networks programme at 
           Aalto University.
