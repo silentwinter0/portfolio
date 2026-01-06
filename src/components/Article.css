@@ -18,7 +18,6 @@
   width: 100%;
   height: auto;
   max-height: 1000px;
-  min-height: 30vh;
   object-fit: cover;
   margin-bottom: 0.0rem;
 }
@@ -93,13 +92,6 @@
   outline: none;
 }
 
-@media (max-width: 640px) {
-  .inline-article-image {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-}
-
 .inline-article-caption {
   color: white;
   font-size: 0.95rem;
@@ -107,4 +99,11 @@
   line-height: 1.2;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 640px) {
+  .inline-article-image {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }

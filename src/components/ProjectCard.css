@@ -9,6 +9,7 @@
   margin: 0;
   background-color: var(--panel-bg, #181A1E);
 }
+
 .topprojectcontainer img{
   object-fit: cover;
   margin-bottom: 0;
@@ -81,4 +82,18 @@
 
 .split {
   width: 50%;
+}
+
+@media (max-width: 899px) {
+  .split {
+    width: 100%;
+  }
+
+  .topprojectcontainer {
+    flex-direction: column;
+  }
+
+  .project-image {
+    max-height: 20vh;
+  }
 }

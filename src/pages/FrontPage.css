@@ -47,12 +47,25 @@ html, body, #root {
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0.5rem 0;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.smalltext {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .introduction-text {
   padding: 2em;
   box-sizing: border-box;
   width: 60%;
+}
+
+.introduction-bigtext {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
 }
 
 .introduction-box {
@@ -88,4 +101,17 @@ html, body, #root {
   height: auto;
   object-fit: cover;
   display: block;
+}
+
+
+@media (max-width: 899px) {
+
+  .introduction-box {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .introduction-text {
+    width: 100%;
+  }
 }
