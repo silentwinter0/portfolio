@@ -2,7 +2,7 @@ import './Projects.css'
 import ProjectCard from './ProjectCard'
 import pic1 from '../assets/images/projects/comms/game2.png'
 import pic2 from '../assets/images/projects/simplescheduler/scheduler.png'
-import pic3 from '../assets/images/projects/comms/game2.png'
+import pic3 from '../assets/images/projects/portfoliosite/figma.png'
 
 export default function Projects() {
   return (
