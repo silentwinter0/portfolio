@@ -59,7 +59,7 @@ html, body, #root {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: center;
   justify-content: flex-start;
   text-align: left;
   margin-top: 2rem;
