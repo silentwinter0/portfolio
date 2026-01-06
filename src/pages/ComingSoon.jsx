@@ -18,7 +18,7 @@ function ComingSoon() {
       <div className="card">
         <h1>Coming soon!</h1>
         <p>Sometime in the future...</p>
-        <p className='bigtext'>
+        <p className='project-bigtext'>
           <br/>
             More to come!
         </p>

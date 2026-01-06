@@ -18,7 +18,7 @@ function PortfolioSite() {
       <div className="card">
         <h1>Portfolio site in React</h1>
         <p>December 2025 – January 2026</p>
-        <p className='bigtext'>
+        <p className='project-bigtext'>
           <br/>
             This site was built by me using React and CSS. Initially 
             starting out as a simple HTML/CSS-site completed as coursework, I 

@@ -26,7 +26,7 @@ function CommunicationCampaign() {
         <h1>Teaching digital novices to 
             recognize AI images and disinformation | A communication campaign</h1>
         <p>January 2025 – May 2025</p>
-        <p className='bigtext'>
+        <p className='project-bigtext'>
           <br/>
               How can we raise awareness about misleading AI images? 
               This communication campaign strategy and proof-of-concept game was
