@@ -2,8 +2,6 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
-import { useState } from 'react'
-import ImageModal from '../components/ImageModal.jsx'
 
 // Pics
 import pic1 from '../assets/images/projects/comms/game.png'
@@ -16,10 +14,9 @@ import pic7 from '../assets/images/projects/comms/game1.png'
 import pic8 from '../assets/images/projects/comms/game2.png'
 import pic9 from '../assets/images/projects/comms/game3.png'
 import pic10 from '../assets/images/projects/comms/game4.png'
+import Gallery from '../components/Gallery.jsx'
 
 function CommunicationCampaign() {
-  const [selectedImage, setSelectedImage] = useState(null)
-
   return (
     <div className="background">
       <Header />
@@ -43,32 +40,19 @@ function CommunicationCampaign() {
       </div>
       <div className='card'>
         <h2>Gallery</h2>
-        <div className='image-gallery'>
-          {[
+        <Gallery images={[
             {src: pic1, alt: 'Game screen', caption: 'The front page of the proof-of-concept game'},
             {src: pic6, alt: 'Social post mockup', caption: "A demonstration of how the social media campaign might work. The first post shows a picture that's more obviously AI-generated, while the latter post one day later contains a more believable AI image."},
             {src: pic3, alt: 'Outdoor illustration 1', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
             {src: pic4, alt: 'Outdoor illustration 2', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
             {src: pic5, alt: 'Article mockup', caption: 'One of the article mockups we designed. This is what the campaign-supporting articles could look like.'},
             {src: pic2, alt: 'Campaign planning board', caption: 'Our planning board in Miro, where we refined the strategy for our campaign.'},
-          ].map((img, i) => (
-            <img
-              key={i}
-              src={img.src}
-              alt={img.alt}
-              tabIndex={0}
-              onClick={() => setSelectedImage(img)}
-              onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSelectedImage(img)}
-            />
-          ))}
-        </div>
-        <ImageModal image={selectedImage} onClose={() => setSelectedImage(null)} />
+          ]} />
       </div>
       <div className='card'>
         <Article
           title='Would you recognize an AI-image?'
-          subtitle='The strategy'
-          content={<>
+          subtitle='The strategy'          content={<>
             <figure className='inline-article-figure'>
               <img
                 src={pic6}
