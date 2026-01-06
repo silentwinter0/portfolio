@@ -15,6 +15,7 @@ createRoot(document.getElementById('root')).render(
         <Route path ="/projects/communication-campaign" element={<CommunicationCampaign />} />
         <Route path ="/projects/c-scheduler" element={<SimpleScheduler />} />
         <Route path ="/projects/portfolio" element={<ComingSoon />} />
+        <Route path ="/*" element={<ComingSoon />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
