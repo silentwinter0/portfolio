@@ -71,6 +71,8 @@
 	padding: 16px 32px;
 	transition: all 0.3s;
 	cursor: pointer;
+	width: fit-content;
+	align-self: flex-end;
 }
 
 .modal-button:hover {
