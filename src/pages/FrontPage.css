@@ -114,4 +114,9 @@ html, body, #root {
   .introduction-text {
     width: 100%;
   }
+
+  .introduction-pic {
+    max-width: 50vw;
+    max-height: 50vw;
+  }
 }
