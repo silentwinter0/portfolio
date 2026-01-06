@@ -10,29 +10,40 @@ const Hero = () => {
 
         // Resize canvas when window size changes
         const resizeCanvas = () => {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
         };
 
         window.addEventListener('resize', resizeCanvas);
         resizeCanvas();
 
+        let time = 0;
+
         // Render loop
         const render = () => {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+            time += 0.01;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        // Test ball
-        ctx.fillStyle = 'white';
-        ctx.beginPath();
-        ctx.arc(canvas.width / 2, canvas.height / 2, 20, 0, Math.PI * 2);
-        ctx.fill();
+            ctx.beginPath();
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = 2;
 
-        animationFrameId = window.requestAnimationFrame(render);
+            const centerY = canvas.height / 2;
+            const amplitude = 100;
+            const frequency = 0.01;
+
+            for (let x = 0; x < canvas.width; x++) {
+                const y = centerY + Math.sin(x * frequency + time) * amplitude;
+                ctx.lineTo(x, y);
+            }
+            ctx.stroke();
+
+            animationFrameId = window.requestAnimationFrame(render);
         };
 
         render();
 
-        // Remove div in case 
+        // Remove in case component vanishes
         return () => {
             window.removeEventListener('resize', resizeCanvas);
             window.cancelAnimationFrame(animationFrameId);
