@@ -6,10 +6,11 @@ export default function About() {
     <section className="about">
       <h1>ABOUT ME</h1>
       <div className="selfportrait">
-        <img src={selfPortrait} alt="A picture of the website author, myself." />
+        <img src={selfPortrait} alt="A picture of myself." />
       </div>
-      <p className="bigtext">hey guess what it’s yet another programmer/designer person!</p>
-      <p>i’m very sure this person is a perfect fit for your company</p>
+      <p className="bigtext">I'm currently looking for new projects to work on; 
+        please reach out if you'd like to work with me!</p>
+      <p>If you have any questions, please reach out at silentwinter0@proton.me</p>
     </section>
   )
 }
