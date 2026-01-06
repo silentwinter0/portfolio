@@ -21,7 +21,7 @@ const Hero = () => {
 
         // Render loop
         const render = () => {
-            time += 0.01;
+            time += 0.007;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             const waveCount = 40;
@@ -31,7 +31,7 @@ const Hero = () => {
                 
                 ctx.beginPath();
                 ctx.lineWidth = 1.5;
-                ctx.strokeStyle = `rgba(25, 0, 155, ${1 - ampModifier / 2})`;
+                ctx.strokeStyle = `rgba(25, 0, 250, ${0.8 - ampModifier / 2})`;
 
                 const yOffset = (canvas.height * 0.2) + (i * 15);
                 const amplitude = 50 * (1 - ampModifier);
