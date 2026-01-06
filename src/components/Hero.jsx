@@ -31,7 +31,7 @@ const Hero = () => {
                 
                 ctx.beginPath();
                 ctx.lineWidth = 1.5;
-                ctx.strokeStyle = `rgba(25, 0, 250, ${0.8 - ampModifier / 2})`;
+                ctx.strokeStyle = `rgba(25, 0, 200, ${0.75 - ampModifier / 2})`;
 
                 const yOffset = (canvas.height * 0.2) + (i * 15);
                 const amplitude = 50 * (1 - ampModifier);
