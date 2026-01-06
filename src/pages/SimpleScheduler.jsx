@@ -3,6 +3,7 @@ import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
 import { useState } from 'react'
+import Hero from '../components/Hero.jsx'
 
 // Pics
 import pic1 from '../assets/images/projects/simplescheduler/scheduler.png'
@@ -12,6 +13,7 @@ function SimpleScheduler() {
 
   return (
     <div className="background">
+      <Hero />
       <Header />
       <div className="card">
         <h1>Command-line Scheduler, written in C</h1>
