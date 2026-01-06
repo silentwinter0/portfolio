@@ -52,7 +52,7 @@ export default function Projects() {
             </>}
             tech="Developed with React, CSS"
             date="December 2025"
-            link="./projects/portfolio"
+            link="./projects/portfoliosite"
           />
         </div>
       </div>
