@@ -2,6 +2,8 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
+import Gallery from '../components/Gallery.jsx'
+import Hero from '../components/Hero.jsx'
 
 // Pics
 import pic1 from '../assets/images/projects/comms/game.png'
@@ -14,11 +16,11 @@ import pic7 from '../assets/images/projects/comms/game1.png'
 import pic8 from '../assets/images/projects/comms/game2.png'
 import pic9 from '../assets/images/projects/comms/game3.png'
 import pic10 from '../assets/images/projects/comms/game4.png'
-import Gallery from '../components/Gallery.jsx'
 
 function CommunicationCampaign() {
   return (
     <div className="background">
+      <Hero />
       <Header />
       <div className="card">
         <h1>Teaching digital novices to 
