@@ -13,17 +13,15 @@ export default function OtherWork() {
             subtitle=""
             tech=""
             date="2025"
-            link="./"
+            link="/projects/softeng-essays"
           />
-          <OtherCardWithModal
+          <OtherCard
             imageSrc=""
             title="Iterative UX/UI design plan for developing a smartwatch GUI"
             subtitle=""
             tech=""
             date="2025"
-            link="./"
-            modalTitle='XYZ'
-            modalText='ABC'
+            link="/projects/UIUX"
           />
         </div>
       </div>
