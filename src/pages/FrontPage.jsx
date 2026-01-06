@@ -35,7 +35,11 @@ function FrontPage() {
         <h1>Projects</h1>
         <Projects />
       </div>
-      <div className="card" id='studies'>
+      <div className='card' id='other-work'>
+        <h1>Other work</h1>
+        <OtherWork />
+      </div>
+      <div className="card article-container" id='studies'>
         <h1>Studies</h1>
             <Article
               imageSrc=""
@@ -70,11 +74,7 @@ function FrontPage() {
               link="./"
               />
         </div>
-      <div className='card' id='other-work'>
-        <h1>Other work</h1>
-        <OtherWork />
-      </div>
-      <div className='card' id='work-experience'>
+      <div className='card article-container' id='work-experience'>
         <h1>Work experience</h1>
           <Article
             imageSrc=""

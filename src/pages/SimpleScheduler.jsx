@@ -26,7 +26,7 @@ function SimpleScheduler() {
             timeframe, featuring file I/O to save and load schedules.
         </p>
       </div>
-      <div className='card'>
+      <div className='card article-container'>
         <Article
           title='The Command-line Scheduler'
           subtitle=''

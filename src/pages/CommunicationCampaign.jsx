@@ -51,7 +51,7 @@ function CommunicationCampaign() {
             {src: pic2, alt: 'Campaign planning board', caption: 'Our planning board in Miro, where we refined the strategy for our campaign.'},
           ]} />
       </div>
-      <div className='card'>
+      <div className='card article-container'>
         <Article
           title='Would you recognize an AI-image?'
           subtitle='The strategy'          content={<>
