@@ -6,11 +6,13 @@ import Projects from '../components/Projects.jsx'
 import OtherWork from '../components/OtherWork.jsx'
 import Article from '../components/Article.jsx'
 import selfPortrait from '../assets/images/pic1.jpg'
+import Hero from '../components/Hero.jsx'
 
 function FrontPage() {
 
   return (
     <div className="background">
+      <Hero />
       <Header />
       <div className='introduction-box'>
         <div className="introduction-text">
