@@ -44,14 +44,48 @@ html, body, #root {
 }
 
 .bigtext {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   margin: 0.5rem 0;
-  width: 75%;
 }
 
-.beginning-introduction {
+.introduction-text {
   padding: 2em;
-  width: 70%;
   box-sizing: border-box;
+  width: 60%;
+}
+
+.introduction-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.introduction-pic {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid white;
+  margin: 0 auto;
+  background-color: #181A1E;
+  max-width: 30vw;
+  max-height: 30vw;
+  height: auto;
+  aspect-ratio: 1;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  overflow: hidden;
+}
+
+.introduction-pic img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
 }
