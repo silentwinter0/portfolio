@@ -36,9 +36,11 @@ export default function Projects() {
               starting out as a simple HTML/CSS-site completed as coursework, I 
               have since reworked the website from the ground to better showcase 
               my current skills and expertise.
+              <br/><br/>
+              Completed over the course of a few weeks.
             </>}
             tech="Developed with React, CSS"
-            date="December 2025"
+            date="December 2025 – January 2026"
             link="./projects/portfoliosite"
           />
           <ProjectCard
@@ -59,9 +61,14 @@ export default function Projects() {
             imageSrc={pic4}
             title="Transit database project"
             subtitle={<>
-              TODO
+              This pair course project involved planning a comprehensive 
+              database system for a transit company, involving interactions 
+              between vehicles, lines, schedules, tickets, stops and shifts.
+              <br/><br/>
+              The project was completed over the course of a few weeks, and was
+              implemented for testing in SQLite.
             </>}
-            tech="Developed with React, CSS"
+            tech="UML, SQLite"
             date="April 2025 – May 2025"
             link="./projects/transitdatabase"
           />
