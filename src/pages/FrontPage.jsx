@@ -145,7 +145,7 @@ function FrontPage() {
                   <br/><br/>
                   Tutor for international and master's degree students 2024–2025
                   <br/><br/>
-                  Songleader 2025–
+                  Songleader disciple 2025–
                   <br/><br/>
                   High school marketing team member 2025–
                 </>
