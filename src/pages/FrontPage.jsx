@@ -18,9 +18,9 @@ function FrontPage() {
         <div className="introduction-text">
         <h1>Sami Manner</h1>
         <p className='introduction-bigtext'>
-          I'm an undergraduate engineering student, studying technology, 
-          business and society in the Information Networks programme at 
-          Aalto University.
+          I'm an undergraduate <b>engineering student</b>, studying technology, 
+          business and society in the <b>Information Networks</b> programme at 
+          <b> Aalto University</b>.
           <br/><br/>
           I'm interested in product development,
           data science, UI/UX design and achieving strategic goals through 
@@ -43,8 +43,11 @@ function FrontPage() {
         <h1>Education</h1>
             <Article
               imageSrc=""
-              title="Information Networks, Bachelor of Science student at Aalto 
-                University"
+              title={<>
+                Information Networks, Bachelor of Science
+                <br/>
+                Aalto University
+              </>}
               subtitle={
               <>
                 2024 – present<br/>2nd year (100/180 ECTS)
