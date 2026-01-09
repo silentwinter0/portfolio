@@ -140,7 +140,7 @@ function FrontPage() {
                 <>
                   Assistant to Head of Academic Affairs 2024–2025
                   <br/><br/>
-                  Tutor for international and Master's degree students 2024–2025
+                  Tutor for international and master's degree students 2024–2025
                   <br/><br/>
                   Songleader 2025–
                   <br/><br/>
