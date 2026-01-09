@@ -114,10 +114,34 @@ function FrontPage() {
           <h1>Volunteer work</h1>
             <Article
               imageSrc=""
-              title="TODO"
+              title="Academic affairs"
               subtitle=""
               content={
                 <>
+                  Student representative responsible for the School of Science
+                   2026–
+                  <br/><br/>
+                  Member of advocacy section of Aalto University Student 
+                  Union 2026–
+                  <br/><br/>
+                  Student representative in administration 2025–
+                </>
+              }
+              link="./"
+              />
+            <Article
+              imageSrc=""
+              title="Roles in student organization"
+              subtitle="Guild of Information Networks, Athene"
+              content={
+                <>
+                  Assistant to Head of Academic Affairs 2024–2025
+                  <br/><br/>
+                  Tutor for international and Master's degree students 2024–2025
+                  <br/><br/>
+                  Songleader 2025–
+                  <br/><br/>
+                  High school marketing team member 2025–
                 </>
               }
               link="./"
