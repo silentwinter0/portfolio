@@ -7,7 +7,8 @@ export default function ProjectCard({ imageSrc,
   tech, 
   date, 
   link,
-  imagePosition = 'center'
+  imagePosition = 'center',
+  linkText = 'Read more'
   
  }) {
   return (
@@ -24,7 +25,7 @@ export default function ProjectCard({ imageSrc,
             <p>{date}</p>
           </div>
           <a href={link} style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-            Read more <ArrowRight size={32} />
+            {linkText} <ArrowRight size={32} />
           </a>
         </div>
       </div>
