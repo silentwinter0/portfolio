@@ -23,8 +23,8 @@ function FrontPage() {
           Aalto University.
           <br/><br/>
           I'm interested in product development,
-          data science, UI/UX design and achieving strategic goals through projects and 
-          campaigns.
+          data science, UI/UX design and achieving strategic goals through 
+          projects and campaigns.
         </p>
         </div>
         <div className="introduction-pic">
@@ -43,7 +43,8 @@ function FrontPage() {
         <h1>Education</h1>
             <Article
               imageSrc=""
-              title="Information Networks, Bachelor of Science student at Aalto University"
+              title="Information Networks, Bachelor of Science student at Aalto 
+                University"
               subtitle={
               <>
                 2024 – present<br/>2nd year (100/180 ECTS)
@@ -71,7 +72,8 @@ function FrontPage() {
                 management & computer science, and I am completing minors in 
                 both subjects. I'm working on developing project development and
                 data science skills.
-                You can see some of my course work in my <a href='./#projects'>projects</a> and <a href='./#other-work'>other work</a> above.
+                You can see some of my course work in my <a href='./#projects'>
+                projects</a> and <a href='./#other-work'>other work</a> above.
                 </>
               }
               link="./"
@@ -81,7 +83,8 @@ function FrontPage() {
         <h1>Work experience</h1>
           <Article
             imageSrc=""
-            title="Substitute teacher in advanced mathematics and sciences, upper secondary school"
+            title="Substitute teacher in advanced mathematics and sciences, 
+              upper secondary school"
             subtitle="August 2024 – present"
             content={
               <>
