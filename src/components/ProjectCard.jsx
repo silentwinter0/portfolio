@@ -1,3 +1,4 @@
+import { ArrowRight } from 'lucide-react'
 import './ProjectCard.css'
 
 export default function ProjectCard({ imageSrc,
@@ -22,7 +23,9 @@ export default function ProjectCard({ imageSrc,
             <p>{tech}</p>
             <p>{date}</p>
           </div>
-          <a href={link}>Read more {'-->'}</a>
+          <a href={link} style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+            Read more <ArrowRight size={32} />
+          </a>
         </div>
       </div>
     </div>
