@@ -144,7 +144,16 @@ function FrontPage() {
                   Member of advocacy section of Aalto University Student 
                   Union 2026–
                   <br/><br/>
-                  Student representative in administration 2025–
+                  <h4>Student representative in administration (AYY / Aalto 
+                    University Student Union)
+                  </h4>
+                  Representative in Information Networks Master's Programme 
+                  Committee, 2026–
+                  <br/>
+                  Deputy representative in Strategic Management Team for 
+                  Aalto Design Factory, 2026–
+                  <br/>
+                  Deputy representative in Information Networks Master's Degree Programme Committee, 2025
                 </>
               }
               link="./"
@@ -156,13 +165,13 @@ function FrontPage() {
               subtitle="Guild of Information Networks, Athene"
               content={
                 <>
-                  Assistant to Head of Academic Affairs 2024–2025
+                  High school marketing team member 2026–
                   <br/><br/>
-                  Tutor for international and master's degree students 2024–2025
+                  Songleader disciple 2026–
                   <br/><br/>
-                  Songleader disciple 2025–
+                  Tutor for international and master's degree students 2025–
                   <br/><br/>
-                  High school marketing team member 2025–
+                  Assistant to Head of Academic Affairs 2025
                 </>
               }
               link="./"
