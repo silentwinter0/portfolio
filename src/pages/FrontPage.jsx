@@ -101,16 +101,20 @@ function FrontPage() {
             subtitle="August 2023 – July 2024"
             content={
               <>
-                Responsible for maintaining IT systems used by staff and students, and providing administrative assistance
+                Responsible for maintaining IT systems used by staff and 
+                students, and providing administrative assistance
                 <br/><br/>
                 Improved efficiency of exam system upgrades by effectively 
                 reallocating limited resources
                 <br/><br/>
-                Trained teachers in effective use of modern technology for teaching, improving digital ergonomics
+                Trained teachers in effective and ergonomic use of modern 
+                technology for teaching
                 <br/><br/>
-                Organized events for student wellbeing, demonstrating skills in organization and logistics
+                Organized events for student wellbeing, handling logistics
                 <br/><br/>
-                Contributed to the successful execution of high-profile school events involving foreign diplomats, demonstrating coordination and communications skills in promoting the school’s global outreach and reputation
+                Contributed to the successful execution of high-profile school 
+                events, e.g. involving foreign diplomats and students, promoting 
+                the school’s global outreach and reputation
               </>
             }
             link="./"
