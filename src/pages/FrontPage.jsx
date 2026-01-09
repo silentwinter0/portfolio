@@ -44,7 +44,10 @@ function FrontPage() {
             <Article
               imageSrc=""
               title="Information Networks, Bachelor of Science student at Aalto University"
-              subtitle="2024 – present"
+              subtitle={
+              <>
+                2024 – present<br/>2nd year (100/180 ECTS)
+              </>}
               content={
                 <>
                 The Information Networks major prepares socially conscious
