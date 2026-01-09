@@ -50,31 +50,36 @@ function FrontPage() {
               </>}
               subtitle={
               <>
-                2024 – present<br/>2nd year (100/180 ECTS)
+                2024 – present
+                <br/>
+                2nd year (100/180 ECTS)
+                <br/><br/>
+                Minor in Industrial Engineering and Management (10/20 ECTS)
+                <br/>
+                Minor in Computer Science (10/20 ECTS)
+                <br/><br/>
               </>}
               content={
                 <>
                 The Information Networks major prepares socially conscious
                 IT and business experts. Studies include engineering basics 
                 (mathematics, physics and programming), business (e.g. 
-                industrial engineering) and technology (computer science and 
-                design), training professionals who master the principles of 
+                industrial engineering, organizational design and 
+                entrepreneurship) and technology (computer science and design), 
+                training professionals who master the principles of 
                 both IT systems & business and organizational development.
                 <br/><br/>
-                The major creates the skills to develop in their working life, 
-                including as product owners, managers, and developers of new 
-                products, services and organizations that utilize information 
-                technology.
+                This major provides the skills I need to a capable product 
+                manager, and a developer of new products, services and 
+                organizations that utilize information technology.
                 
-                Graduates are typically experts in human- and society-centered 
-                technology, working as programmers, designers, business 
-                consultants, strategy directors, project managers, data 
-                analysts and product owners.
+                I chose this major as the interdisciplinary nature of the major
+                allows me to explore my interests while developing skills that
+                benefit my work across disciplines.
                 <br/><br/>
-                I have focused my studies in industrial engineering and 
-                management & computer science, and I am completing minors in 
-                both subjects. I'm working on developing project development and
-                data science skills.
+                I have focused my studies in technology, data and business, and I am 
+                completing minors in both IEM and CS. I'm working on developing 
+                my skills in data science and project development.
                 You can see some of my course work in my <a href='./#projects'>
                 projects</a> and <a href='./#other-work'>other work</a> above.
                 </>
