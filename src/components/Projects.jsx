@@ -1,8 +1,8 @@
 import './Projects.css'
 import ProjectCard from './ProjectCard'
 import pic1 from '../assets/images/projects/comms/game2.png'
-import pic2 from '../assets/images/projects/simplescheduler/scheduler.png'
-import pic3 from '../assets/images/projects/portfoliosite/figma.png'
+import pic2 from '../assets/images/projects/portfoliosite/figma.png'
+import pic3 from '../assets/images/projects/simplescheduler/scheduler.png'
 import pic4 from '../assets/images/projects/transitdatabase/uml.png'
 
 export default function Projects() {
@@ -30,6 +30,19 @@ export default function Projects() {
           />
           <ProjectCard
             imageSrc={pic2}
+            title="A portfolio page with React"
+            subtitle={<>
+              This site was built by me using React and CSS. Initially 
+              starting out as a simple HTML/CSS-site completed as coursework, I 
+              have since reworked the website from the ground to better showcase 
+              my current skills and expertise.
+            </>}
+            tech="Developed with React, CSS"
+            date="December 2025"
+            link="./projects/portfoliosite"
+          />
+          <ProjectCard
+            imageSrc={pic3}
             imagePosition='left'
             title="Command-line Scheduler in C"
             subtitle={<>
@@ -41,19 +54,6 @@ export default function Projects() {
             tech="Written in C"
             date="March 2025"
             link="./projects/c-scheduler"
-          />
-          <ProjectCard
-            imageSrc={pic3}
-            title="This portfolio site!"
-            subtitle={<>
-              This site was built by me using React and CSS. Initially 
-              starting out as a simple HTML/CSS-site completed as coursework, I 
-              have since reworked the website from the ground to better showcase 
-              my current skills and expertise.
-            </>}
-            tech="Developed with React, CSS"
-            date="December 2025"
-            link="./projects/portfoliosite"
           />
           <ProjectCard
             imageSrc={pic4}
