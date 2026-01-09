@@ -9,20 +9,23 @@ export default function OtherWork() {
         <div className="top-projects">
           <OtherCard
             imageSrc=""
-            title="Essays in Software Engineering"
-            subtitle=""
-            tech=""
-            date="2025"
-            link="/projects/softeng-essays"
-          />
-          <OtherCard
-            imageSrc=""
             title="Iterative UX/UI design plan for developing a smartwatch GUI"
             subtitle=""
             tech=""
             date="2025"
             link="/projects/UIUX"
           />
+          {/*
+          ** Future stuff **
+          <OtherCard
+            imageSrc=""
+            title="Essays in Software Engineering"
+            subtitle=""
+            tech=""
+            date="2025"
+            link="/projects/softeng-essays"
+          />
+          */}
         </div>
       </div>
     </section>
