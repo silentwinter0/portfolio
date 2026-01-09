@@ -12,8 +12,9 @@ export default function OtherWork() {
             title="Iterative UX/UI design plan for developing a smartwatch GUI"
             subtitle=""
             tech=""
-            date="2025"
+            date="November 2025"
             link="/projects/UIUX"
+            linkText='Coming soon!'
           />
           {/*
           ** Future stuff **
