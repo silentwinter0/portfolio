@@ -71,7 +71,7 @@ function FrontPage() {
                 management & computer science, and I am completing minors in 
                 both subjects. I'm working on developing project development and
                 data science skills.
-                You can see some of my course work in my <a href='./#projects'>projects</a> and <a href='./#other-work'>other work</a> below.
+                You can see some of my course work in my <a href='./#projects'>projects</a> and <a href='./#other-work'>other work</a> above.
                 </>
               }
               link="./"
