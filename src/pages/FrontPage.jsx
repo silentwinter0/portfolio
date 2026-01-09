@@ -93,6 +93,7 @@ function FrontPage() {
               </>
             }
             link="./"
+            textAlign='center'
             />
           <Article
             imageSrc=""
@@ -113,6 +114,7 @@ function FrontPage() {
               </>
             }
             link="./"
+            textAlign='center'
             />
           <h1>Volunteer work</h1>
             <Article
@@ -131,6 +133,7 @@ function FrontPage() {
                 </>
               }
               link="./"
+              textAlign='center'
               />
             <Article
               imageSrc=""
@@ -148,6 +151,7 @@ function FrontPage() {
                 </>
               }
               link="./"
+              textAlign='center'
               />
       </div>
       <div id='about' />
