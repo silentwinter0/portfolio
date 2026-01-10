@@ -111,6 +111,9 @@ html, body, #root {
   display: block;
 }
 
+.project-date {
+  font-size: 1.4rem;
+}
 
 @media (max-width: 899px) {
 
