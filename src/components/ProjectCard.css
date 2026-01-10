@@ -96,3 +96,19 @@
     max-height: 45vw;
   }
 }
+
+@media (max-width: 600px) {
+
+.projecttext h2 {
+  font-size: 16px;
+}
+
+.projecttext h3 {
+  font-size: 13px;
+}
+
+.projecttext p {
+  font-size: 10px;
+}
+
+}
