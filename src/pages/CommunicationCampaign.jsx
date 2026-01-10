@@ -25,7 +25,7 @@ function CommunicationCampaign() {
       <div className="card">
         <h1>Teaching digital novices to 
             recognize AI images and disinformation | A communication campaign</h1>
-        <p>January 2025 – May 2025</p>
+        <p className="project-date">January 2025 – May 2025</p>
         <p className='project-bigtext'>
           <br/>
               How can we raise awareness about misleading AI images? 

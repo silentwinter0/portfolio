@@ -17,7 +17,7 @@ function SimpleScheduler() {
       <Header />
       <div className="card">
         <h1>Command-line Scheduler, written in C</h1>
-        <p>March 2025</p>
+        <p className="project-date">March 2025</p>
         <p className='project-bigtext'>
           <br/>
             Simple scheduling system for scheduling one-hour meeting 
