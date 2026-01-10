@@ -99,5 +99,16 @@
   }
 }
 
-/* Break-fix xyz */
+@media screen and (max-width: 899px) {
+  .top-projects, .other-projects {
+    grid-auto-rows: auto;
+  }
 
+  .projectcontainer {
+    height: auto;
+  }
+}
+
+  .projectcontainer {
+    height: auto;
+  }
