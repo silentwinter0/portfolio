@@ -128,3 +128,23 @@ html, body, #root {
     max-height: 50vw;
   }
 }
+
+@media (max-width: 600px) {
+
+  .introduction-bigtext {
+    font-size: 1.2rem;
+  }
+
+  .project-bigtext {
+    font-size: 16px;
+  }
+
+  .introduction-bigtext {
+    font-size: 1.3rem;
+  }
+
+  .p {
+    font-size: 16px;
+  }
+
+}
