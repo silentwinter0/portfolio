@@ -149,10 +149,10 @@ function FrontPage() {
                   </h4>
                   Representative in Information Networks Master's Programme 
                   Committee, 2026–
-                  <br/>
+                  <br/><br/>
                   Deputy representative in Strategic Management Team for 
                   Aalto Design Factory, 2026–
-                  <br/>
+                  <br/><br/>
                   Deputy representative in Information Networks Master's Degree Programme Committee, 2025
                 </>
               }
