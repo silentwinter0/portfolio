@@ -112,6 +112,11 @@
 }
 
 @media (max-width: 640px) {
+
+  .article {
+    max-width: 100%;
+  }
+
   .inline-article-image {
     flex-basis: 100%;
     max-width: 100%;
@@ -119,6 +124,10 @@
 
   .article-paragraph {
     max-width: 40ch;
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .article-projecttext {
+    margin: 0.6rem;
   }
 }
