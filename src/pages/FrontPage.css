@@ -127,6 +127,11 @@ html, body, #root {
     max-width: 50vw;
     max-height: 50vw;
   }
+
+  .project-bigtext {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -152,6 +157,11 @@ html, body, #root {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-size: 3.2rem;
+  }
+
+  .card p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
 }

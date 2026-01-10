@@ -11,8 +11,8 @@ export default function OtherCard({ imageSrc, title, subtitle, tech, date, link,
         <h2>{title}</h2>
         <h3>{subtitle}</h3>
         <div className="tech-date">
-          <p>{tech}</p>
-          <p>{date}</p>
+          <div>{tech}</div>
+          <div>{date}</div>
         </div>
         <a href={link} style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
           {linkText} <ArrowRight size={32} />
