@@ -74,7 +74,7 @@ function CommunicationCampaign() {
             <br/><br/>
 
             Our campaign was one of three selected by course organizers to be 
-            presented to Vapa Media, a marketing and communications company, 
+            presented to a Finnish marketing and communications company, 
             whose employees praised its clear strategy, idea and execution, 
             stating it could be put to use as-is. In fact, they offered to reach
             out in case they wanted to go forward with implementing the campaign.
