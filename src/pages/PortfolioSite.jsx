@@ -28,7 +28,7 @@ function PortfolioSite() {
       </div>
       <div className='card article-container'>
         <Article
-          title='Coming soon!'
+          title='The portfolio site'
           subtitle=''
           content={<>
             <figure className='inline-article-figure'>
@@ -42,7 +42,34 @@ function PortfolioSite() {
                  inspiration.</figcaption>
             </figure>
             <br/>
-            Lorem ipsum
+            This is my portfolio site—that is, you're reading this text on the
+            "final product", the completed website. I created the initial design
+            of the website for a course in the basics of web publishing in 
+            January 2025. This initial plan was also implemented with basic HTML,
+            CSS and some JavaScript elements.
+            <br/><br/>
+            Now, I've rewritten the page with React, improved the structure 
+            and styling for better visual appeal and readability, and added a 
+            simple background animation. Most of the CSS was imported, through 
+            things like font sizes, margins and especially picture placement and
+            styling were improved significantly.
+            <br/><br/>
+            The design was conceived with a few basic concepts. First, I wanted 
+            to make something a little atypical, but still visually pleasing.
+            Second, I wanted to use a simple color palette, so that project
+            images take less attention, and third, use of color should draw the
+            attention of the viewer effectively. I did this with the "Hero" 
+            animation you're seeing in the background, and by reserving the deep
+            blue color for drawing attention to the projects.
+            <br/><br/>
+            Finally, the site should be easily expandable as I work on more and
+            more projects. I've managed to build the components and templates
+            I need to easily add new pages, projects and articles. Adding a new 
+            page is easy enough that I can now add every project I deem worthy
+            of showing off in a few minutes—though of course writing text takes 
+            some time.
+            <br/><br/>
+            More projects to come!
           </>}
         />
       </div>
