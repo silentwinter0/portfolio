@@ -2,14 +2,9 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
-import { useState } from 'react'
 import Hero from '../components/Hero.jsx'
 
-// Pics
-import pic1 from '../assets/images/projects/simplescheduler/scheduler.png'
-
 function ComingSoon() {
-  const [selectedImage, setSelectedImage] = useState(null)
 
   return (
     <div className="background">    
@@ -29,7 +24,8 @@ function ComingSoon() {
           subtitle=''
           content={<>
             <br/>
-            Please check out my <a href='/#projects'>other projects</a> in the meantime!
+            Please check out my <a href='/#projects'>other projects</a> in the 
+            meantime!
             <br/>
             <br/>
             <br/>

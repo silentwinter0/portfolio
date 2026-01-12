@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 const Hero = () => {
     const canvasRef = useRef(null);
@@ -38,8 +38,10 @@ const Hero = () => {
                 const frequency = 0.01;
 
                 for (let x = 0; x <= canvas.width; x += 5) {
-                    const wave1 = Math.sin(x * frequency + time + (i * 0.5)) * amplitude;
-                    const wave2 = Math.sin(x * frequency * 2.5 + time) * (amplitude / 5 * 0.4);
+                    const wave1 = Math.sin(
+                        x * frequency + time + (i * 0.5)) * amplitude;
+                    const wave2 = Math.sin(
+                        x * frequency * 2.5 + time) * (amplitude / 5 * 0.4);
                     const y = yOffset + wave1 + wave2;
                     if (x === 0) ctx.moveTo(x, y);
                     else ctx.lineTo(x, y);

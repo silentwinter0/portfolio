@@ -8,9 +8,13 @@ export default function About() {
       <div className="selfportrait">
         <img src={selfPortrait} alt="A picture of myself." />
       </div>
-      <p className="bigtext">I'm currently looking for new projects to work on; 
-        please reach out if you'd like to work with me!</p>
-      <p className="smalltext">If you have any questions, please reach out at silentwinter0@proton.me</p>
+      <p className="bigtext">
+        I'm currently looking for new projects to work on; 
+        please reach out if you'd like to work with me!
+      </p>
+      <p className="smalltext">
+        If you have any questions, please reach out at silentwinter0@proton.me
+      </p>
     </section>
   )
 }

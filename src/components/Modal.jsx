@@ -1,7 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Modal.css'
 
-export default function Modal({ buttonText = 'Read more', modalTitle = '', modalText = '', children }) {
+export default function Modal({ 
+  buttonText = 'Read more', 
+  modalTitle = '', 
+  modalText = '', 
+  children 
+}) {
   const [mounted, setMounted] = useState(false)
   const [visible, setVisible] = useState(false)
   const TRANSITION_MS = 220
@@ -29,7 +34,10 @@ export default function Modal({ buttonText = 'Read more', modalTitle = '', modal
       </button>
 
       {mounted && (
-        <div className={`modal-container ${visible ? 'visible' : ''}`} style={{ display: 'flex' }}>
+        <div className={
+          `modal-container ${visible ? 'visible' : ''}`} 
+          style={{ display: 'flex' 
+          }}>
           <div className="modal" style={{ display: 'block' }} role="dialog">
             <button className="modal-close" onClick={closeModal}>
               <span className="button-line"></span>

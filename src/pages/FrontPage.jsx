@@ -77,9 +77,9 @@ function FrontPage() {
                 allows me to explore my interests while developing skills that
                 benefit my work across disciplines.
                 <br/><br/>
-                I have focused my studies in technology, data and business, and I am 
-                completing minors in both IEM and CS. I'm working on developing 
-                my skills in data science and project development.
+                I have focused my studies in technology, data and business, and 
+                I am completing minors in both IEM and CS. I'm working on 
+                developing my skills in data science and project development.
                 You can see some of my course work in my <a href='./#projects'>
                 projects</a> and <a href='./#other-work'>other work</a> above.
                 </>
@@ -153,7 +153,8 @@ function FrontPage() {
                   Deputy representative in Strategic Management Team for 
                   Aalto Design Factory, 2026–
                   <br/><br/>
-                  Deputy representative in Information Networks Master's Degree Programme Committee, 2025
+                  Deputy representative in Information Networks Master's Degree 
+                  Programme Committee, 2025
                 </>
               }
               link="./"

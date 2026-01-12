@@ -1,7 +1,8 @@
 import { ArrowRight } from 'lucide-react'
 import './ProjectCard.css'
 
-export default function ProjectCard({ imageSrc,
+export default function ProjectCard({ 
+  imageSrc,
   title, 
   subtitle, 
   tech, 
@@ -10,11 +11,13 @@ export default function ProjectCard({ imageSrc,
   imagePosition = 'center',
   linkText = 'Read more'
   
- }) {
+}) {
   return (
     <div className="topprojectcontainer">
         <div className="project-image split">
-          <img src={imageSrc} alt={`${title} image`} style={{objectPosition: imagePosition}}/>
+          <img src={imageSrc} alt={`${title} image`} 
+            style={{objectPosition: imagePosition}}
+          />
         </div>
       <div className="project-alltext split">
         <div className="projecttext">
@@ -24,7 +27,11 @@ export default function ProjectCard({ imageSrc,
             <div>{tech}</div>
             <div>{date}</div>
           </div>
-          <a href={link} style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+          <a href={link} style={{ 
+            display: 'inline-flex', 
+            alignItems: 'center', 
+            gap: '4px' 
+          }}>
             {linkText} <ArrowRight size={32} />
           </a>
         </div>

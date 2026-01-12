@@ -1,6 +1,5 @@
 import './Projects.css'
 import OtherCard from './OtherCard'
-import OtherCardWithModal from './OtherCardWithModal'
 
 export default function OtherWork() {
   return (

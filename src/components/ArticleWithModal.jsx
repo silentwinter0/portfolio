@@ -1,4 +1,3 @@
-import React from 'react'
 import './Article.css'
 import Modal from './Modal'
 import './Modal.css'

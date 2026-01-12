@@ -23,8 +23,10 @@ function CommunicationCampaign() {
       <Hero />
       <Header />
       <div className="card">
-        <h1>Teaching digital novices to 
-            recognize AI images and disinformation | A communication campaign</h1>
+        <h1>
+          Teaching digital novices to recognize AI images and disinformation
+           | A communication campaign
+        </h1>
         <p className="project-date">January 2025 – May 2025</p>
         <p className='project-bigtext'>
           <br/>
@@ -43,12 +45,31 @@ function CommunicationCampaign() {
       <div className='card'>
         <h2>Gallery</h2>
         <Gallery images={[
-            {src: pic1, alt: 'Game screen', caption: 'The front page of the proof-of-concept game'},
-            {src: pic6, alt: 'Social post mockup', caption: "A demonstration of how the social media campaign might work. The first post shows a picture that's more obviously AI-generated, while the latter post one day later contains a more believable AI image."},
-            {src: pic3, alt: 'Outdoor illustration 1', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
-            {src: pic4, alt: 'Outdoor illustration 2', caption: "An illustration of how the outdoor campaign might look. Made with JCDecaux's illustration tool."},
-            {src: pic5, alt: 'Article mockup', caption: 'One of the article mockups we designed. This is what the campaign-supporting articles could look like.'},
-            {src: pic2, alt: 'Campaign planning board', caption: 'Our planning board in Miro, where we refined the strategy for our campaign.'},
+            {src: pic1, alt: `Game screen`, caption: 
+              `The front page of the proof-of-concept game`
+            },
+            {src: pic6, alt: `Social post mockup`, caption: 
+              `A demonstration of how the social media campaign might 
+              work. The first post shows a picture that's more obviously 
+              AI-generated, while the latter post one day later contains a more 
+              believable AI image.`
+            },
+            {src: pic3, alt: `Outdoor illustration 1`, caption: 
+              `An illustration of how the outdoor campaign might look. Made with
+               JCDecaux's illustration tool.`
+            },
+            {src: pic4, alt: 'Outdoor illustration 2', caption: `An illustration
+               of how the outdoor campaign might look. Made with JCDecaux's 
+               illustration tool.`
+            },
+            {src: pic5, alt: 'Article mockup', caption: `One of the article 
+              mockups we designed. This is what the campaign-supporting articles
+               could look like.`
+            },
+            {src: pic2, alt: 'Campaign planning board', caption: 
+              `Our planning board in Miro, where we refined the strategy for our
+               campaign.`
+            },
           ]} />
       </div>
       <div className='card article-container'>
@@ -61,7 +82,9 @@ function CommunicationCampaign() {
                 alt='Social post mockup'
                 className='inline-article-image'
               />
-              <figcaption className='inline-article-caption'>Both images in these fictional posts are AI generated.</figcaption>
+              <figcaption className='inline-article-caption'>
+                Both images in these fictional posts are AI generated.
+              </figcaption>
             </figure>
             <br/><br/>
             This group project was completed for a course in communication and 
@@ -98,10 +121,10 @@ function CommunicationCampaign() {
             success is the improvement of results between two rounds of the game.
             <br/><br/>
             The major challenge is that target group's understanding of the 
-            subject of AI is weak, and they do not know how to take the potential
-            disinformation threat seriously. Furthermore, AI creates a lot of 
-            confusion and fear, which helps our campaign as people are paying 
-            attention and keen to learn more about it. Thus, we need to 
+            subject of AI is weak, and they do not know how to take the
+            potential disinformation threat seriously. Furthermore, AI creates a
+            lot of confusion and fear, which helps our campaign as people are
+            paying attention and keen to learn more about it. Thus, we need to 
             communicate to them in a way that is both attention-grabbing and 
             believable. We use examples to tell them how disinformation 
             created with the help of artificial intelligence can have a negative
@@ -126,10 +149,10 @@ function CommunicationCampaign() {
             the game, read more about the topic, and to share their results with
             friends on social media, further nurturing the campaign. Another 
             core idea was that once the website was up and running, the campaign
-            would be easy and efficient to run, as the target group would do most
-            of the work further spreading the campaign, while the campaigners 
-            could focus on releasing topical articles about recent developments 
-            in AI image generation. 
+            would be easy and efficient to run, as the target group would do 
+            most of the work further spreading the campaign, while the 
+            campaigners could focus on releasing topical articles about recent 
+            developments in AI image generation. 
           </>}
         />
         <Article
@@ -157,7 +180,9 @@ function CommunicationCampaign() {
                 alt='Game screen'
                 className='inline-article-image'
               />
-              <figcaption className='inline-article-caption'>The proof-of-concept game in action.</figcaption>
+              <figcaption className='inline-article-caption'>
+                The proof-of-concept game in action.
+              </figcaption>
             </figure>
             <br/><br/>
             After the planning stage was completed, we got to work on the 

@@ -23,7 +23,9 @@ function Gallery({ images }) {
             alt={img.alt}
             tabIndex={0}
             onClick={() => handleImageClick(img)}
-            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && handleImageClick(img)}
+            onKeyDown={(e) => 
+              (e.key === 'Enter' || e.key === ' ') &&
+              handleImageClick(img)}
           />
         ))}
       </div>

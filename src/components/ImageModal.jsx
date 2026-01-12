@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './Modal.css'
 
 export default function ImageModal({ image = null, onClose = () => {} }) {
@@ -29,7 +29,10 @@ export default function ImageModal({ image = null, onClose = () => {} }) {
   if (!mounted) return null
 
   return (
-    <div className={`modal-container ${visible ? 'visible' : ''}`} style={{ display: 'flex' }}>
+    <div 
+      className={`modal-container ${visible ? 'visible' : ''}`} 
+      style={{ display: 'flex' 
+      }}>
       <div className="modal" style={{ display: 'block' }} role="dialog">
         <button className="modal-close" onClick={close}>
           <span className="button-line"></span>

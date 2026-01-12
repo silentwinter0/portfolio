@@ -2,15 +2,12 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
-import { useState } from 'react'
 import Hero from '../components/Hero.jsx'
 
 // Pics
 import pic1 from '../assets/images/projects/simplescheduler/scheduler.png'
 
 function SimpleScheduler() {
-  const [selectedImage, setSelectedImage] = useState(null)
-
   return (
     <div className="background">
       <Hero />
@@ -38,7 +35,9 @@ function SimpleScheduler() {
                 use, showing command and their effects.'
                 className='inline-article-image'
               />
-              <figcaption className='inline-article-caption'>The command-line scheduler in action</figcaption>
+              <figcaption className='inline-article-caption'>
+                The command-line scheduler in action
+              </figcaption>
             </figure>
             <br/><br/>
             This simple C program was written as a part of my course in the 

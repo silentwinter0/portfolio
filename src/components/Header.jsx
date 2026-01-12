@@ -8,12 +8,24 @@ export default function Header() {
         <div className="linkbarholder">
           <div className="topofnav">
             <div className="navlinkbar">
-              <a className="navlinkelement" href="../">Home</a>
-              <a className="navlinkelement" href="../#projects">Projects</a>
-              <a className="navlinkelement" href="../#other-work">Other work</a>
-              <a className="navlinkelement" href="../#education">Education</a>
-              <a className="navlinkelement" href="../#work-experience">Work experience</a>
-              <a className="navlinkelement" href="../#about">About me</a>
+              <a className="navlinkelement" href="../">
+                Home
+              </a>
+              <a className="navlinkelement" href="../#projects">
+                Projects
+              </a>
+              <a className="navlinkelement" href="../#other-work">
+                Other work
+              </a>
+              <a className="navlinkelement" href="../#education">
+                Education
+              </a>
+              <a className="navlinkelement" href="../#work-experience">
+                Work experience
+              </a>
+              <a className="navlinkelement" href="../#about">
+                About me
+              </a>
             </div>
           </div>
         </div>

@@ -2,15 +2,12 @@ import './FrontPage.css'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
 import Article from '../components/Article.jsx'
-import { useState } from 'react'
 import Hero from '../components/Hero.jsx'
 
 // Pics
 import pic1 from '../assets/images/projects/portfoliosite/figma.png'
 
 function PortfolioSite() {
-  const [selectedImage, setSelectedImage] = useState(null)
-
   return (
     <div className="background">    
       <Hero />
