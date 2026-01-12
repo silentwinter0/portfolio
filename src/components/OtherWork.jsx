@@ -8,12 +8,15 @@ export default function OtherWork() {
         <div className="top-projects">
           <OtherCard
             imageSrc=""
-            title="Iterative UX/UI design plan for developing a smartwatch GUI"
-            subtitle=""
-            tech=""
+            title="Iterative human-centred UX/UI design plan for developing a 
+            smartwatch GUI"
+            subtitle="This course assignment involved defining a human-centred 
+            design process for developing a GUI for a smartwatch, designed for
+            the needs of young children."
+            tech="Sketches and essays"
             date="November 2025"
-            link="/projects/UIUX"
-            linkText='Coming soon!'
+            link="/projects/uiux"
+            linkText='Read more'
           />
           {/*
           ** Future stuff **

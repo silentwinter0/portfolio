@@ -8,6 +8,7 @@ import SimpleScheduler from './pages/SimpleScheduler.jsx'
 import ComingSoon from './pages/ComingSoon.jsx'
 import PortfolioSite from './pages/PortfolioSite.jsx'
 import TransitDatabase from './pages/TransitDatabase.jsx'
+import UIUX from './pages/UIUX.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
         <Route path ="/projects/c-scheduler" element={<SimpleScheduler />} />
         <Route path ="/projects/portfoliosite" element={<PortfolioSite />} />
         <Route path ="/projects/transitdatabase" element={<TransitDatabase />} />
+        <Route path ="/projects/uiux" element={<UIUX />} />
         <Route path ="/*" element={<ComingSoon />} />
       </Routes>
     </BrowserRouter>
