@@ -7,6 +7,7 @@ import CommunicationCampaign from './pages/CommunicationCampaign.jsx'
 import SimpleScheduler from './pages/SimpleScheduler.jsx'
 import ComingSoon from './pages/ComingSoon.jsx'
 import PortfolioSite from './pages/PortfolioSite.jsx'
+import TransitDatabase from './pages/TransitDatabase.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')).render(
         <Route path ="/projects/communication-campaign" element={<CommunicationCampaign />} />
         <Route path ="/projects/c-scheduler" element={<SimpleScheduler />} />
         <Route path ="/projects/portfoliosite" element={<PortfolioSite />} />
+        <Route path ="/projects/transitdatabase" element={<TransitDatabase />} />
         <Route path ="/*" element={<ComingSoon />} />
       </Routes>
     </BrowserRouter>

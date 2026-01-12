@@ -59,7 +59,7 @@ export default function Projects() {
           />
           <ProjectCard
             imageSrc={pic4}
-            title="Transit database project"
+            title="Transit database project with UML and SQLite"
             subtitle={<>
               This pair course project involved planning a comprehensive 
               database system for a transit company, involving interactions 
