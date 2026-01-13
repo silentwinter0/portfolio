@@ -101,8 +101,10 @@ function FrontPage() {
                 Part-time teacher of advanced mathematics and sciences.
                 <br/><br/>
                 Gained experience in explaining complex concepts clearly, and 
-                managing large groups of students. Learned to find and apply new
-                methods to effectively teach new concepts to a diverse audience.
+                managing large groups of students.
+                <br/><br/>
+                Learned to find and apply new methods to effectively teach new 
+                concepts to a diverse audience.
               </>
             }
             link="./"
