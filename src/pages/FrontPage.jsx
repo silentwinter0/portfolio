@@ -52,7 +52,9 @@ function FrontPage() {
               <>
                 2024 – present
                 <br/>
-                2nd year (100/180 ECTS)
+                2nd year (105/180 ECTS)
+                <br/>
+                4.79 / 5.00 GPA
                 <br/><br/>
                 Minor in Industrial Engineering and Management (10/20 ECTS)
                 <br/>
