@@ -99,8 +99,10 @@ function CommunicationCampaign() {
             Our campaign was one of three selected by course organizers to be 
             presented to a Finnish marketing and communications company, 
             whose employees praised its clear strategy, idea and execution, 
-            stating it could be put to use as-is. In fact, they offered to reach
-            out in case they wanted to go forward with implementing the campaign.
+            stating it could be put to use as-is. In fact, they expressed their 
+            interest in potentially proposing the campaign to a suitable company
+            in the future with our collaboration, and offered to reach out in
+            case they do.
             <br/><br/>
             Our selected course audience was the "older generation" of Finnish 
             social media users: users of Facebook, aged 50 and above, and are 
