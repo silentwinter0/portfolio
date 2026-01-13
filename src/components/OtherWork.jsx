@@ -16,7 +16,17 @@ export default function OtherWork() {
             tech="Sketches and essays"
             date="November 2025"
             link="/projects/uiux"
-            linkText='Read more'
+          />
+          <OtherCard
+            imageSrc=""
+            title="Online recipe parser and viewer"
+            subtitle="A small personal project for parsing online recipes to 
+            JSON, then displaying them with a custom, cross-platform user 
+            interface."
+            tech="TBD – Experimenting"
+            date="Working on it!"
+            link="/projects/coming-soon"
+            linkText='Coming soon!'
           />
           {/*
           ** Future stuff **
