@@ -70,14 +70,13 @@ function FrontPage() {
                 entrepreneurship) and technology (computer science and design), 
                 training professionals who master the principles of 
                 both IT systems & business and organizational development.
+                The major provides the necessary skills for product management 
+                and development of new products, services and 
+                organizations that utilize information technology. 
                 <br/><br/>
-                This major provides the skills I need to a capable product 
-                manager, and a developer of new products, services and 
-                organizations that utilize information technology.
-                
-                I chose this major as the interdisciplinary nature of the major
-                allows me to explore my interests while developing skills that
-                benefit my work across disciplines.
+                I chose this major as the interdisciplinary nature of the 
+                programme allows me to explore my interests while developing 
+                skills that benefit my work across disciplines.
                 <br/><br/>
                 I have focused my studies in technology, data and business, and 
                 I am completing minors in both IEM and CS. I'm working on 
