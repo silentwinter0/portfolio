@@ -31,11 +31,11 @@ function FrontPage() {
           <img src={selfPortrait} alt="A picture of myself." />
         </div>
       </div>
-      <div className="card" id='projects'>
+      <div className="card article-container" id='projects'>
         <h1>Projects</h1>
         <Projects />
       </div>
-      <div className='card' id='other-work'>
+      <div className='card article-container' id='other-work'>
         <h1>Other work</h1>
         <OtherWork />
       </div>
