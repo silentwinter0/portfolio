@@ -51,7 +51,7 @@ export default function Projects() {
               Simple scheduling system for scheduling one-hour meeting 
               times. <br/><br/>
               Written from scratch in C as a console application under a strict 
-              timeframe, featuring file I/O to save and load schedules.
+              time-frame, featuring file I/O to save and load schedules.
             </>}
             tech="Written in C"
             date="March 2025"
