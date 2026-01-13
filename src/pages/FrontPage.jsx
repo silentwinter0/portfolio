@@ -117,19 +117,26 @@ function FrontPage() {
             content={
               <>
                 Responsible for maintaining IT systems used by staff and 
-                students, and providing administrative assistance
+                students; laptops, printers, exam system
+                <br/><br/>
+                Provided administrative assistance, wrote documentation and 
+                guidebooks
                 <br/><br/>
                 Improved efficiency of exam system upgrades by effectively 
                 reallocating limited resources
                 <br/><br/>
-                Trained teachers in effective and ergonomic use of modern 
-                technology for teaching
+                Trained teachers in effective use of modern technology for 
+                teaching, improving digital ergonomics
                 <br/><br/>
-                Organized events for student wellbeing, handling logistics
+                Organized events for student well-being, handling activities and
+                logistics
                 <br/><br/>
                 Contributed to the successful execution of high-profile school 
-                events, e.g. involving foreign diplomats and students, promoting 
-                the school’s global outreach and reputation
+                events, e.g. involving foreign diplomats and exchange students, 
+                promoting the school’s global outreach and reputation
+                <br/><br/>
+                Cited for significant day-to-day contributions by superiors and 
+                colleagues
               </>
             }
             link="./"
