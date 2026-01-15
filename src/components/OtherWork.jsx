@@ -19,6 +19,20 @@ export default function OtherWork() {
           />
           <OtherCard
             imageSrc=""
+            title="Essays in Software Engineering"
+            subtitle="Essays about common pitfalls and best practices in the 
+            field of software engineering. Includes topics like software design,
+            architecture and requirements engineering. Received full points for
+            all essays."
+            tech=""
+            date="September 2025 – December 2025"
+            link="/projects/softeng-essays"
+            linkText="Coming soon!"
+          />
+          {/*
+          ** Future Stuff **
+          <OtherCard
+            imageSrc=""
             title="Online recipe parser and viewer"
             subtitle="A small personal project for parsing online recipes to 
             JSON, then displaying them with a custom, cross-platform user 
@@ -27,16 +41,6 @@ export default function OtherWork() {
             date="Working on it!"
             link="/projects/coming-soon"
             linkText='Coming soon!'
-          />
-          {/*
-          ** Future stuff **
-          <OtherCard
-            imageSrc=""
-            title="Essays in Software Engineering"
-            subtitle=""
-            tech=""
-            date="2025"
-            link="/projects/softeng-essays"
           />
           */}
         </div>
