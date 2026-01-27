@@ -52,13 +52,13 @@ function FrontPage() {
               <>
                 2024 – present
                 <br/>
-                2nd year (105/180 ECTS)
+                2nd year (115/180 ECTS)
                 <br/>
                 4.79 / 5.00 GPA
                 <br/><br/>
-                Minor in Industrial Engineering and Management (10/20 ECTS)
+                Minor in Industrial Engineering and Management
                 <br/>
-                Minor in Computer Science (10/20 ECTS)
+                Minor in Computer Science
                 <br/><br/>
               </>}
               content={
