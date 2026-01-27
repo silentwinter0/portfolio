@@ -5,7 +5,7 @@ import Article from '../components/Article.jsx'
 import Hero from '../components/Hero.jsx'
 
 // Pics
-import pic1 from '../assets/images/projects/uiux/design.jpg'
+import pic1 from '../assets/images/projects/uiux/design.png'
 
 function UIUX() {
 
